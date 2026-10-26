@@ -46,7 +46,7 @@ public sealed class CatalogViewModel : ViewModelBase
  {
   this.kind=kind;this.content=content;
   Title=kind=="site"?"Find your next horizon.":"A world of possibility.";
-  Subtitle=kind=="site"?"Shallows, walls and stories beneath the Mediterranean.":"Explore the training described in the Dive Hub archive.";
+  Subtitle=kind=="site"?"Shallows, walls and stories beneath the Mediterranean.":"Explore diving courses and develop your skills.";
   Eyebrow=kind=="site"?"THE DIVE SITE COLLECTION":"LEARN & EXPLORE";
   Filters=kind=="site"?["All","Shore","Boat","Up to 18 m","Over 18 m"]:["All","PADI","CMAS","DAN","TDI"];
   Open=Command(p=>p is ContentEntry item?nav.DetailAsync(item):Task.CompletedTask);

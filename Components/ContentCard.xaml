@@ -4,9 +4,9 @@
   <Grid RowDefinitions="190,Auto">
    <Image Source="{Binding Image}" Aspect="AspectFill" SemanticProperties.Description="{Binding Name}"/>
    <VerticalStackLayout Grid.Row="1" Padding="20" Spacing="8">
-    <Label Text="{Binding Eyebrow}" Style="{StaticResource Eyebrow}"/>
+    <Label Text="{Binding Eyebrow}" IsVisible="{Binding HasEyebrow}" Style="{StaticResource Eyebrow}"/>
     <Label Text="{Binding Name}" FontFamily="OpenSansSemibold" FontSize="21"/>
-    <Label Text="{Binding Summary}" Style="{StaticResource Body}" MaxLines="3" LineBreakMode="TailTruncation"/>
+    <Label Text="{Binding Summary}" IsVisible="{Binding HasSummary}" Style="{StaticResource Body}" MaxLines="3" LineBreakMode="TailTruncation"/>
     <Button Text="Explore  →" Style="{StaticResource LinkButton}" HorizontalOptions="Start" Clicked="ExploreClicked" SemanticProperties.Description="{Binding Name, StringFormat='Explore {0}'}"/>
    </VerticalStackLayout>
   </Grid>

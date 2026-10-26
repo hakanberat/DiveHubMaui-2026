@@ -8,6 +8,6 @@ public sealed class ContentService
     private static async Task<Catalog> LoadAsync()
     {
         await using var stream = await FileSystem.OpenAppPackageFileAsync("catalog.json");
-        return await JsonSerializer.DeserializeAsync(stream,CatalogJsonContext.Default.Catalog) ?? throw new InvalidDataException("The bundled catalog is unavailable.");
+        return await JsonSerializer.DeserializeAsync(stream,CatalogJsonContext.Default.Catalog) ?? throw new InvalidDataException("The bundled catalog could not be loaded.");
     }
 }

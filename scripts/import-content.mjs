@@ -117,7 +117,43 @@ function normalize(e){
  e.Description=e.Description.replace(/,\s*(?=\n|$)/g,'');
 }
 entries.forEach(normalize);
-await write('Resources/Raw/catalog.json',JSON.stringify({Entries:entries,Gallery:gallery,Team:team,About:About+"\n\nThe 2014 team list also named K. M. Hakan Koçdağ; the newer website names Hakan Berat Dermican instead. They have not been assumed to be the same person.",Contacts},null,2));
+const cleanCatalogCopy = function(data) {
+ const cleanValue=value=>{
+  if(typeof value!=='string')return value;
+  const text=value.replace(/\s*\((?:archive|archived)\)/gi,'').trim();
+  return /^(?:unavailable|unavalibale|n\/a)$/i.test(text)?'':text;
+ };
+ for(const entry of data.Entries){
+  for(const key of ['Access','Experience','MinimumAge','Prerequisites','DiveCount'])if(key in entry)entry[key]=cleanValue(entry[key]);
+  if(entry.Category==='Legacy collection')entry.Category='Northern Cyprus';
+  entry.SourceNote=['pitos','awall'].includes(entry.Id)
+   ?'Site depth: '+entry.MaxDepth+' m. Dive depth limit described for this site: 30 m.'
+   :'';
+  if(entry.Id==='tdi_advanced-nitrox-introduction-to-tech-diving'){
+   entry.Summary='Advanced Nitrox and Introduction to Tech Diving combined.';
+   entry.Description='Combined Advanced Nitrox and Introduction to Tech Diving course with four training dives.';
+  }
+  if(entry.Id==='tdi_intro-to-tech-advanced-nitrox-deco-procedures'){
+   entry.Summary='Intro to Tech, Advanced Nitrox and Decompression Procedures combined.';
+   entry.Description='';
+  }
+  if(entry.Id==='tdi_nitrox-diver')entry.DiveCount='0';
+  if(entry.Id==='dives')entry.Summary='Explore marine life and underwater landscapes along the coast of Northern Cyprus.';
+ }
+ data.Gallery.forEach((photo,index)=>{
+  photo.Caption='Dive Hub · Photo '+String(index+1).padStart(2,'0');
+  const original=photo.Source.match(/^Original file: (.+?)\. Caption/);
+  if(original)photo.Source='https://dive-hub.com/wp-content/uploads/'+original[1];
+  else if(!photo.Source.startsWith('https://'))photo.Source='https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/'+photo.Image;
+ });
+ data.About="Dive Hub's story is rooted in Iskele Bogaz on the eastern coast of Northern Cyprus. Mediterranean shores, offshore walls, marine life and ancient artefacts define this part of the island.\n\nDive Hub brought together guided diving and individual or group training in a relaxed, social setting by the sea.";
+ for(const contact of data.Contacts){
+  contact.Label=contact.Label.replace(/^Historical /i,'').replace(/^Original website$/,'Website');
+  contact.Label=contact.Label.charAt(0).toUpperCase()+contact.Label.slice(1);
+ }
+ return data;
+};
+await write('Resources/Raw/catalog.json',JSON.stringify(cleanCatalogCopy({Entries:entries,Gallery:gallery,Team:team,About:About+"\n\nThe 2014 team list also named K. M. Hakan Koçdağ; the newer website names Hakan Berat Dermican instead. They have not been assumed to be the same person.",Contacts}),null,2));
 await write('docs/asset-manifest.json',JSON.stringify([...assets,...downloads],null,2));
 await write('.reference/images.curl',downloads.flatMap(d=>['url = "'+d.Source+'"','output = "Resources/Images/'+d.File+'"']).join('\n'));
 console.log(JSON.stringify({entries:entries.length,gallery:gallery.length,team:team.length,assets:assets.length+downloads.length}));
