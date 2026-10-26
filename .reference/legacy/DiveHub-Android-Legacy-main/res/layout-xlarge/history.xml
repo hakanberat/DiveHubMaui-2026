@@ -1,0 +1,72 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+         <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/amphorabeach" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="Cyprus is located in the eastern Mediterranean. It is a sizeable island at 9250 square kilometres and has a coastline of 648 kilometres. The climate is typically Mediterranean, with hot summers and mild winters. Most of Cyprus is agricultural land that is spattered with ancient castles and historical ruins. The North of Cyprus has beauties of its own when compared to the rest of the world. Untouched nature, and golden beached are the most specific of these beauties. There are many hotels and apartments on offer, tailoring to family and package holidays. The language spoken in the north is Turkish, but English is widely understood. The currency used is the Turkish Liras but dollars, sterling and euro are also widely used. Traditional food combines elements of Mediterranean and Middle Eastern cuisine. The locals are very friendly and always welcoming." />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+			android:text="The underwater world in North of Cyprus is also worth to explore. There are many great reasons to scuba dive, but the one that most captures people's imagination is marine wildlife. From schools of fish, to octopuses and sharks seas house an impressive chunk of Earth's life that most people only ever see on the TV. Still swimming with a school of fish or sharing a octopus’s habitat for a few minutes is about more than recreation. In Northern Cyprus you are welcome to dive at many different dive sites and different depths ranging from a few meters to 30-40 meters. You can experience the ease and thrill of diving in unspoiled underwater of Iskele region and Karpaz peninsula where not many divers and dive centers exist, visibility is very good and all different sorts of underwater life exists." />
+        
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+			android:text="In Iskele region and Karpaz Peninsula you can visit the underwater world and discover the colourful beauties; swim with different fishes and caretta carettas in their natural habitat, see moray eels and octopuses hiding in their coves. Come and explore the unknown, untouched underwater habitat."   />
+              
+         <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+			android:text="Seeing the sea animals in their natural habitat makes them seem more real and worth protecting than any TV program could. At each of our untouched and undiscovered dive sites, divers can get up close and interact with some of the planet's most beautiful and amazing animals. The action is just below the surface at many of these sites, so even novice divers can participate." />
+                 
+          <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+			android:text="There are a whole host of good reasons to discover the underwater beauties of various dive sites ranging from shallow to deep, from Iskele to Karpaz peninsula where you can experience the natural habitat of the underwater animals. It is very likely that you will get to see caretta carettas, schools of different species of fishes, moray eels, octopuses, cuttlefish, sting rays during your dives in Cyprus. You are welcome to take the best shots with your camera as well as just dive to explore the ship wrecks, caverns or the long reefs and the habitat along them." 
+			/>
+                  
+    </LinearLayout>
+    
+
+</ScrollView>

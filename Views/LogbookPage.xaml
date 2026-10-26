@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:DiveHubMauiApp.ViewModels" xmlns:m="clr-namespace:DiveHubMauiApp.Models" x:Class="DiveHubMauiApp.Views.LogbookPage" x:DataType="vm:LogbookViewModel" Title="Logbook">
+ <Grid Padding="{OnIdiom Phone='20,18,20,0', Default='36,24,36,0'}" RowDefinitions="Auto,Auto,Auto,Auto,*" RowSpacing="18" MaximumWidthRequest="1100" HorizontalOptions="Fill">
+  <Grid ColumnDefinitions="*,Auto"><VerticalStackLayout Spacing="6"><Label Text="YOUR UNDERWATER STORY" Style="{StaticResource Eyebrow}"/><Label Text="The dive logbook." Style="{StaticResource Title}"/></VerticalStackLayout><Button Grid.Column="1" Text="+ Add dive" Command="{Binding Add}" VerticalOptions="Center" Margin="8,0,0,0"/></Grid>
+  <Border Grid.Row="1" BackgroundColor="{StaticResource Navy}" StrokeThickness="0" StrokeShape="RoundRectangle 22" Padding="20">
+   <Grid ColumnDefinitions="*,*,*" ColumnSpacing="12">
+    <VerticalStackLayout Spacing="6"><Label Text="TOTAL DIVES" TextColor="#B8CDD9" FontSize="10" CharacterSpacing="1"/><Label Text="{Binding Total}" FontSize="28" TextColor="White" FontFamily="OpenSansSemibold"/></VerticalStackLayout>
+    <VerticalStackLayout Grid.Column="1" Spacing="6"><Label Text="DIVE TIME" TextColor="#B8CDD9" FontSize="10" CharacterSpacing="1"/><Label Text="{Binding TotalTime}" FontSize="23" TextColor="White" FontFamily="OpenSansSemibold"/></VerticalStackLayout>
+    <VerticalStackLayout Grid.Column="2" Spacing="6"><Label Text="DEEPEST DIVE" TextColor="#B8CDD9" FontSize="10" CharacterSpacing="1"/><Label Text="{Binding Maximum}" FontSize="23" TextColor="{StaticResource Turquoise}" FontFamily="OpenSansSemibold"/></VerticalStackLayout>
+   </Grid>
+  </Border>
+  <Border Grid.Row="2" Style="{StaticResource Card}" StrokeShape="RoundRectangle 14"><SearchBar Text="{Binding Search}" Placeholder="Search site, buddy, number or notes" SemanticProperties.Description="Search saved dives"/></Border>
+  <VerticalStackLayout Grid.Row="3" Spacing="8"><Grid ColumnDefinitions="*,Auto" ColumnSpacing="12"><Picker ItemsSource="{Binding SortOptions}" SelectedItem="{Binding Sort}" Title="Sort dives" SemanticProperties.Description="Sort saved dives"/><Button Grid.Column="1" Text="Refresh" Style="{StaticResource LinkButton}" Command="{Binding Refresh}"/></Grid><Label Text="Saved on this device · all dives are included in your totals" Style="{StaticResource Caption}"/><Label Text="{Binding Error}" IsVisible="{Binding HasError}" Style="{StaticResource Error}"/></VerticalStackLayout>
+  <RefreshView Grid.Row="4" IsRefreshing="{Binding IsBusy}" Command="{Binding Refresh}" RefreshColor="{StaticResource Ocean}">
+   <CollectionView ItemsSource="{Binding Dives}" SelectionMode="None">
+    <CollectionView.EmptyView><VerticalStackLayout Padding="22,36" Spacing="12"><Image Source="icon_logbook.png" WidthRequest="44" HeightRequest="44"/><Label Text="{Binding EmptyTitle}" FontSize="23" FontFamily="OpenSansSemibold" HorizontalTextAlignment="Center"/><Label Text="{Binding EmptyMessage}" Style="{StaticResource Body}" HorizontalTextAlignment="Center"/><Button Text="Add a dive  +" Command="{Binding Add}" HorizontalOptions="Center"/></VerticalStackLayout></CollectionView.EmptyView>
+    <CollectionView.ItemTemplate><DataTemplate x:DataType="m:DiveRecord"><Border Style="{StaticResource Card}" Padding="20" Margin="0,0,0,12"><Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto,Auto" RowSpacing="7" ColumnSpacing="14"><Label Text="{Binding NumberLabel}" Style="{StaticResource Eyebrow}"/><Label Grid.Column="1" Text="{Binding DateLabel}" Style="{StaticResource Caption}"/><Label Grid.Row="1" Grid.ColumnSpan="2" Text="{Binding DiveSite}" FontSize="21" FontFamily="OpenSansSemibold"/><Label Grid.Row="2" Text="{Binding MetricsLabel}" TextColor="{StaticResource Ocean}"/><Button Grid.Row="2" Grid.Column="1" Text="View →" Style="{StaticResource LinkButton}" Clicked="DiveClicked"/></Grid><Border.GestureRecognizers><TapGestureRecognizer Tapped="DiveTapped"/></Border.GestureRecognizers></Border></DataTemplate></CollectionView.ItemTemplate>
+   </CollectionView>
+  </RefreshView>
+ </Grid>
+</ContentPage>

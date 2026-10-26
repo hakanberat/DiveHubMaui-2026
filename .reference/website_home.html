@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang="en-US" >
+<head>
+	
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="format-detection" content="telephone=no">
+<title>Dive Hub</title>
+<script type="text/javascript">var ajaxurl = "https://dive-hub.com/wp-admin/admin-ajax.php"</script>
+		<style id="critical-path-css" type="text/css">
+			body,html{width:100%;height:100%;margin:0;padding:0}.page-preloader{top:0;left:0;z-index:999;position:fixed;height:100%;width:100%;text-align:center}.preloader-preview-area{-webkit-animation-delay:-.2s;animation-delay:-.2s;top:50%;-webkit-transform:translateY(100%);-ms-transform:translateY(100%);transform:translateY(100%);margin-top:10px;max-height:calc(50% - 20px);opacity:1;width:100%;text-align:center;position:absolute}.preloader-logo{max-width:90%;top:50%;-webkit-transform:translateY(-100%);-ms-transform:translateY(-100%);transform:translateY(-100%);margin:-10px auto 0 auto;max-height:calc(50% - 20px);opacity:1;position:relative}.ball-pulse>div{width:15px;height:15px;border-radius:100%;margin:2px;-webkit-animation-fill-mode:both;animation-fill-mode:both;display:inline-block;-webkit-animation:ball-pulse .75s infinite cubic-bezier(.2,.68,.18,1.08);animation:ball-pulse .75s infinite cubic-bezier(.2,.68,.18,1.08)}.ball-pulse>div:nth-child(1){-webkit-animation-delay:-.36s;animation-delay:-.36s}.ball-pulse>div:nth-child(2){-webkit-animation-delay:-.24s;animation-delay:-.24s}.ball-pulse>div:nth-child(3){-webkit-animation-delay:-.12s;animation-delay:-.12s}@-webkit-keyframes ball-pulse{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}45%{-webkit-transform:scale(.1);transform:scale(.1);opacity:.7}80%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes ball-pulse{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}45%{-webkit-transform:scale(.1);transform:scale(.1);opacity:.7}80%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}.ball-clip-rotate-pulse{position:relative;-webkit-transform:translateY(-15px) translateX(-10px);-ms-transform:translateY(-15px) translateX(-10px);transform:translateY(-15px) translateX(-10px);display:inline-block}.ball-clip-rotate-pulse>div{-webkit-animation-fill-mode:both;animation-fill-mode:both;position:absolute;top:0;left:0;border-radius:100%}.ball-clip-rotate-pulse>div:first-child{height:36px;width:36px;top:7px;left:-7px;-webkit-animation:ball-clip-rotate-pulse-scale 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;animation:ball-clip-rotate-pulse-scale 1s 0s cubic-bezier(.09,.57,.49,.9) infinite}.ball-clip-rotate-pulse>div:last-child{position:absolute;width:50px;height:50px;left:-16px;top:-2px;background:0 0;border:2px solid;-webkit-animation:ball-clip-rotate-pulse-rotate 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;animation:ball-clip-rotate-pulse-rotate 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;-webkit-animation-duration:1s;animation-duration:1s}@-webkit-keyframes ball-clip-rotate-pulse-rotate{0%{-webkit-transform:rotate(0) scale(1);transform:rotate(0) scale(1)}50%{-webkit-transform:rotate(180deg) scale(.6);transform:rotate(180deg) scale(.6)}100%{-webkit-transform:rotate(360deg) scale(1);transform:rotate(360deg) scale(1)}}@keyframes ball-clip-rotate-pulse-rotate{0%{-webkit-transform:rotate(0) scale(1);transform:rotate(0) scale(1)}50%{-webkit-transform:rotate(180deg) scale(.6);transform:rotate(180deg) scale(.6)}100%{-webkit-transform:rotate(360deg) scale(1);transform:rotate(360deg) scale(1)}}@-webkit-keyframes ball-clip-rotate-pulse-scale{30%{-webkit-transform:scale(.3);transform:scale(.3)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes ball-clip-rotate-pulse-scale{30%{-webkit-transform:scale(.3);transform:scale(.3)}100%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes square-spin{25%{-webkit-transform:perspective(100px) rotateX(180deg) rotateY(0);transform:perspective(100px) rotateX(180deg) rotateY(0)}50%{-webkit-transform:perspective(100px) rotateX(180deg) rotateY(180deg);transform:perspective(100px) rotateX(180deg) rotateY(180deg)}75%{-webkit-transform:perspective(100px) rotateX(0) rotateY(180deg);transform:perspective(100px) rotateX(0) rotateY(180deg)}100%{-webkit-transform:perspective(100px) rotateX(0) rotateY(0);transform:perspective(100px) rotateX(0) rotateY(0)}}@keyframes square-spin{25%{-webkit-transform:perspective(100px) rotateX(180deg) rotateY(0);transform:perspective(100px) rotateX(180deg) rotateY(0)}50%{-webkit-transform:perspective(100px) rotateX(180deg) rotateY(180deg);transform:perspective(100px) rotateX(180deg) rotateY(180deg)}75%{-webkit-transform:perspective(100px) rotateX(0) rotateY(180deg);transform:perspective(100px) rotateX(0) rotateY(180deg)}100%{-webkit-transform:perspective(100px) rotateX(0) rotateY(0);transform:perspective(100px) rotateX(0) rotateY(0)}}.square-spin{display:inline-block}.square-spin>div{-webkit-animation-fill-mode:both;animation-fill-mode:both;width:50px;height:50px;-webkit-animation:square-spin 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;animation:square-spin 3s 0s cubic-bezier(.09,.57,.49,.9) infinite}.cube-transition{position:relative;-webkit-transform:translate(-25px,-25px);-ms-transform:translate(-25px,-25px);transform:translate(-25px,-25px);display:inline-block}.cube-transition>div{-webkit-animation-fill-mode:both;animation-fill-mode:both;width:15px;height:15px;position:absolute;top:-5px;left:-5px;-webkit-animation:cube-transition 1.6s 0s infinite ease-in-out;animation:cube-transition 1.6s 0s infinite ease-in-out}.cube-transition>div:last-child{-webkit-animation-delay:-.8s;animation-delay:-.8s}@-webkit-keyframes cube-transition{25%{-webkit-transform:translateX(50px) scale(.5) rotate(-90deg);transform:translateX(50px) scale(.5) rotate(-90deg)}50%{-webkit-transform:translate(50px,50px) rotate(-180deg);transform:translate(50px,50px) rotate(-180deg)}75%{-webkit-transform:translateY(50px) scale(.5) rotate(-270deg);transform:translateY(50px) scale(.5) rotate(-270deg)}100%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg)}}@keyframes cube-transition{25%{-webkit-transform:translateX(50px) scale(.5) rotate(-90deg);transform:translateX(50px) scale(.5) rotate(-90deg)}50%{-webkit-transform:translate(50px,50px) rotate(-180deg);transform:translate(50px,50px) rotate(-180deg)}75%{-webkit-transform:translateY(50px) scale(.5) rotate(-270deg);transform:translateY(50px) scale(.5) rotate(-270deg)}100%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg)}}.ball-scale>div{border-radius:100%;margin:2px;-webkit-animation-fill-mode:both;animation-fill-mode:both;display:inline-block;height:60px;width:60px;-webkit-animation:ball-scale 1s 0s ease-in-out infinite;animation:ball-scale 1s 0s ease-in-out infinite}@-webkit-keyframes ball-scale{0%{-webkit-transform:scale(0);transform:scale(0)}100%{-webkit-transform:scale(1);transform:scale(1);opacity:0}}@keyframes ball-scale{0%{-webkit-transform:scale(0);transform:scale(0)}100%{-webkit-transform:scale(1);transform:scale(1);opacity:0}}.line-scale>div{-webkit-animation-fill-mode:both;animation-fill-mode:both;display:inline-block;width:5px;height:50px;border-radius:2px;margin:2px}.line-scale>div:nth-child(1){-webkit-animation:line-scale 1s -.5s infinite cubic-bezier(.2,.68,.18,1.08);animation:line-scale 1s -.5s infinite cubic-bezier(.2,.68,.18,1.08)}.line-scale>div:nth-child(2){-webkit-animation:line-scale 1s -.4s infinite cubic-bezier(.2,.68,.18,1.08);animation:line-scale 1s -.4s infinite cubic-bezier(.2,.68,.18,1.08)}.line-scale>div:nth-child(3){-webkit-animation:line-scale 1s -.3s infinite cubic-bezier(.2,.68,.18,1.08);animation:line-scale 1s -.3s infinite cubic-bezier(.2,.68,.18,1.08)}.line-scale>div:nth-child(4){-webkit-animation:line-scale 1s -.2s infinite cubic-bezier(.2,.68,.18,1.08);animation:line-scale 1s -.2s infinite cubic-bezier(.2,.68,.18,1.08)}.line-scale>div:nth-child(5){-webkit-animation:line-scale 1s -.1s infinite cubic-bezier(.2,.68,.18,1.08);animation:line-scale 1s -.1s infinite cubic-bezier(.2,.68,.18,1.08)}@-webkit-keyframes line-scale{0%{-webkit-transform:scaley(1);transform:scaley(1)}50%{-webkit-transform:scaley(.4);transform:scaley(.4)}100%{-webkit-transform:scaley(1);transform:scaley(1)}}@keyframes line-scale{0%{-webkit-transform:scaley(1);transform:scaley(1)}50%{-webkit-transform:scaley(.4);transform:scaley(.4)}100%{-webkit-transform:scaley(1);transform:scaley(1)}}.ball-scale-multiple{position:relative;-webkit-transform:translateY(30px);-ms-transform:translateY(30px);transform:translateY(30px);display:inline-block}.ball-scale-multiple>div{border-radius:100%;-webkit-animation-fill-mode:both;animation-fill-mode:both;margin:2px;position:absolute;left:-30px;top:0;opacity:0;margin:0;width:50px;height:50px;-webkit-animation:ball-scale-multiple 1s 0s linear infinite;animation:ball-scale-multiple 1s 0s linear infinite}.ball-scale-multiple>div:nth-child(2){-webkit-animation-delay:-.2s;animation-delay:-.2s}.ball-scale-multiple>div:nth-child(3){-webkit-animation-delay:-.2s;animation-delay:-.2s}@-webkit-keyframes ball-scale-multiple{0%{-webkit-transform:scale(0);transform:scale(0);opacity:0}5%{opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:0}}@keyframes ball-scale-multiple{0%{-webkit-transform:scale(0);transform:scale(0);opacity:0}5%{opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:0}}.ball-pulse-sync{display:inline-block}.ball-pulse-sync>div{width:15px;height:15px;border-radius:100%;margin:2px;-webkit-animation-fill-mode:both;animation-fill-mode:both;display:inline-block}.ball-pulse-sync>div:nth-child(1){-webkit-animation:ball-pulse-sync .6s -.21s infinite ease-in-out;animation:ball-pulse-sync .6s -.21s infinite ease-in-out}.ball-pulse-sync>div:nth-child(2){-webkit-animation:ball-pulse-sync .6s -.14s infinite ease-in-out;animation:ball-pulse-sync .6s -.14s infinite ease-in-out}.ball-pulse-sync>div:nth-child(3){-webkit-animation:ball-pulse-sync .6s -70ms infinite ease-in-out;animation:ball-pulse-sync .6s -70ms infinite ease-in-out}@-webkit-keyframes ball-pulse-sync{33%{-webkit-transform:translateY(10px);transform:translateY(10px)}66%{-webkit-transform:translateY(-10px);transform:translateY(-10px)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes ball-pulse-sync{33%{-webkit-transform:translateY(10px);transform:translateY(10px)}66%{-webkit-transform:translateY(-10px);transform:translateY(-10px)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}.transparent-circle{display:inline-block;border-top:.5em solid rgba(255,255,255,.2);border-right:.5em solid rgba(255,255,255,.2);border-bottom:.5em solid rgba(255,255,255,.2);border-left:.5em solid #fff;-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-animation:transparent-circle 1.1s infinite linear;animation:transparent-circle 1.1s infinite linear;width:50px;height:50px;border-radius:50%}.transparent-circle:after{border-radius:50%;width:10em;height:10em}@-webkit-keyframes transparent-circle{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes transparent-circle{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.ball-spin-fade-loader{position:relative;top:-10px;left:-10px;display:inline-block}.ball-spin-fade-loader>div{width:15px;height:15px;border-radius:100%;margin:2px;-webkit-animation-fill-mode:both;animation-fill-mode:both;position:absolute;-webkit-animation:ball-spin-fade-loader 1s infinite linear;animation:ball-spin-fade-loader 1s infinite linear}.ball-spin-fade-loader>div:nth-child(1){top:25px;left:0;animation-delay:-.84s;-webkit-animation-delay:-.84s}.ball-spin-fade-loader>div:nth-child(2){top:17.05px;left:17.05px;animation-delay:-.72s;-webkit-animation-delay:-.72s}.ball-spin-fade-loader>div:nth-child(3){top:0;left:25px;animation-delay:-.6s;-webkit-animation-delay:-.6s}.ball-spin-fade-loader>div:nth-child(4){top:-17.05px;left:17.05px;animation-delay:-.48s;-webkit-animation-delay:-.48s}.ball-spin-fade-loader>div:nth-child(5){top:-25px;left:0;animation-delay:-.36s;-webkit-animation-delay:-.36s}.ball-spin-fade-loader>div:nth-child(6){top:-17.05px;left:-17.05px;animation-delay:-.24s;-webkit-animation-delay:-.24s}.ball-spin-fade-loader>div:nth-child(7){top:0;left:-25px;animation-delay:-.12s;-webkit-animation-delay:-.12s}.ball-spin-fade-loader>div:nth-child(8){top:17.05px;left:-17.05px;animation-delay:0s;-webkit-animation-delay:0s}@-webkit-keyframes ball-spin-fade-loader{50%{opacity:.3;-webkit-transform:scale(.4);transform:scale(.4)}100%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}}@keyframes ball-spin-fade-loader{50%{opacity:.3;-webkit-transform:scale(.4);transform:scale(.4)}100%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}}		</style>
+
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Dive Hub &raquo; Feed" href="https://dive-hub.com/en/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dive Hub &raquo; Comments Feed" href="https://dive-hub.com/en/comments/feed/" />
+
+<link rel="shortcut icon" href="http://dive-hub.com/wp-content/uploads/2015/07/logo2-01.png"  />
+<link rel="alternate" type="application/rss+xml" title="Dive Hub &raquo; Home Page Comments Feed" href="https://dive-hub.com/en/home-page/feed/" />
+<script type="text/javascript">
+window.abb = {};
+php = {};
+window.PHP = {};
+PHP.ajax = "https://dive-hub.com/wp-admin/admin-ajax.php";PHP.wp_p_id = "66";var mk_header_parallax, mk_banner_parallax, mk_page_parallax, mk_footer_parallax, mk_body_parallax;
+var mk_images_dir = "https://dive-hub.com/wp-content/themes/jupiter/assets/images",
+mk_theme_js_path = "https://dive-hub.com/wp-content/themes/jupiter/assets/js",
+mk_theme_dir = "https://dive-hub.com/wp-content/themes/jupiter",
+mk_captcha_placeholder = "Enter Captcha",
+mk_captcha_invalid_txt = "Invalid. Try again.",
+mk_captcha_correct_txt = "Captcha correct.",
+mk_responsive_nav_width = 1140,
+mk_vertical_header_back = "Back",
+mk_vertical_header_anim = "1",
+mk_check_rtl = true,
+mk_grid_width = 1140,
+mk_ajax_search_option = "beside_nav",
+mk_preloader_bg_color = "#ffffff",
+mk_accent_color = "#00557e",
+mk_go_to_top =  "true",
+mk_smooth_scroll =  "true",
+mk_preloader_bar_color = "#00557e",
+mk_preloader_logo = "";
+var mk_header_parallax = false,
+mk_banner_parallax = false,
+mk_footer_parallax = false,
+mk_body_parallax = false,
+mk_no_more_posts = "No More Posts",
+mk_typekit_id   = "",
+mk_google_fonts = ["Abel:100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic,100,200,300,400,500,600,700,800,900","Abel:100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic,100,200,300,400,500,600,700,800,900","Abel:100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic,100,200,300,400,500,600,700,800,900"],
+mk_global_lazyload = true;
+</script>
+<link rel='stylesheet' id='layerslider-css'  href='https://dive-hub.com/wp-content/plugins/LayerSlider/static/layerslider/css/layerslider.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='ls-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://dive-hub.com/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.6.4' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+<link rel='stylesheet' id='theme-my-login-css'  href='https://dive-hub.com/wp-content/plugins/theme-my-login/assets/styles/theme-my-login.min.css?ver=7.0.13' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-override-css'  href='https://dive-hub.com/wp-content/themes/jupiter/assets/stylesheet/plugins/min/woocommerce.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-styles-css'  href='https://dive-hub.com/wp-content/themes/jupiter/assets/stylesheet/min/full-styles.6.0.2.css?ver=1514989387' type='text/css' media='all' />
+<style id='theme-styles-inline-css' type='text/css'>
+body { background-color:#fff; } .hb-custom-header #mk-page-introduce, .mk-header { background-color:#f7f7f7; } .hb-custom-header > div, .mk-header-bg { background-color:#00557e; } .mk-classic-nav-bg { background-color:#00557e; } .master-holder-bg { background-color:#fff; } #mk-footer { background-color:#00557e;background-position:center center; } #mk-boxed-layout { -webkit-box-shadow:0 0 0px rgba(0, 0, 0, 0); -moz-box-shadow:0 0 0px rgba(0, 0, 0, 0); box-shadow:0 0 0px rgba(0, 0, 0, 0); } .mk-news-tab .mk-tabs-tabs .is-active a, .mk-fancy-title.pattern-style span, .mk-fancy-title.pattern-style.color-gradient span:after, .page-bg-color { background-color:#fff; } .page-title { font-size:20px; color:; text-transform:uppercase; font-weight:inherit; letter-spacing:2px; } .page-subtitle { font-size:14px; line-height:100%; color:; font-size:14px; text-transform:none; } body { font-family:Abel } body { font-family:Abel } body { font-family:Abel } @font-face { font-family:'star'; src:url('https://dive-hub.com/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.eot'); src:url('https://dive-hub.com/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.eot?#iefix') format('embedded-opentype'), url('https://dive-hub.com/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.woff') format('woff'), url('https://dive-hub.com/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.ttf') format('truetype'), url('https://dive-hub.com/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.svg#star') format('svg'); font-weight:normal; font-style:normal; } @font-face { font-family:'WooCommerce'; src:url('https://dive-hub.com/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.eot'); src:url('https://dive-hub.com/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.eot?#iefix') format('embedded-opentype'), url('https://dive-hub.com/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.woff') format('woff'), url('https://dive-hub.com/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.ttf') format('truetype'), url('https://dive-hub.com/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.svg#WooCommerce') format('svg'); font-weight:normal; font-style:normal; }.bigger-font-size p, .bigger-font-size { font-size:16px; line-height:27px; color:#777; } .cmk-center-align { text-align:center; }
+</style>
+<link rel='stylesheet' id='mkhb-grid-css'  href='https://dive-hub.com/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-grid.css?ver=6.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mkhb-render-css'  href='https://dive-hub.com/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-render.css?ver=6.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='https://dive-hub.com/wp-content/plugins/js_composer_theme/assets/css/js_composer.min.css?ver=5.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-options-css'  href='https://dive-hub.com/wp-content/uploads/mk_assets/theme-options-production-1727450181.css?ver=1727450145' type='text/css' media='all' />
+<link rel='stylesheet' id='ms-main-css'  href='https://dive-hub.com/wp-content/plugins/masterslider/public/assets/css/masterslider.main.css?ver=2.15.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ms-custom-css'  href='https://dive-hub.com/wp-content/uploads/masterslider/custom.css?ver=1.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://dive-hub.com/wp-content/themes/jupiter/assets/js/plugins/wp-enqueue/min/webfontloader.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+WebFontConfig = {
+	timeout: 2000
+}
+
+if ( mk_typekit_id.length > 0 ) {
+	WebFontConfig.typekit = {
+		id: mk_typekit_id
+	}
+}
+
+if ( mk_google_fonts.length > 0 ) {
+	WebFontConfig.google = {
+		families:  mk_google_fonts
+	}
+}
+
+if ( (mk_google_fonts.length > 0 || mk_typekit_id.length > 0) && navigator.userAgent.indexOf("Speed Insights") == -1) {
+	WebFont.load( WebFontConfig );
+}
+		
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"6.6.4"};
+/* ]]> */
+</script>
+<script type='text/javascript' data-cfasync="false" src='https://dive-hub.com/wp-content/plugins/LayerSlider/static/layerslider/js/greensock.js?ver=1.19.0'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' data-cfasync="false" src='https://dive-hub.com/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.6.4'></script>
+<script type='text/javascript' data-cfasync="false" src='https://dive-hub.com/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.transitions.js?ver=6.6.4'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.6.4'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.6.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"https:\/\/dive-hub.com\/en\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/dive-hub.com\/en\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.2.6'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/plugins/js_composer_theme/assets/js/vendors/woocommerce-add-to-cart.js?ver=5.4.5'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/themes/jupiter/framework/includes/woocommerce-quantity-increment/assets/js/wc-quantity-increment.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/themes/jupiter/framework/includes/woocommerce-quantity-increment/assets/js/lib/number-polyfill.min.js?ver=4.9.1'></script>
+<meta name="generator" content="Powered by LayerSlider 6.6.4 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.kreaturamedia.com -->
+<link rel='https://api.w.org/' href='https://dive-hub.com/en/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://dive-hub.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://dive-hub.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.1" />
+<meta name="generator" content="WooCommerce 3.2.6" />
+<link rel="canonical" href="https://dive-hub.com/en/" />
+<link rel='shortlink' href='https://dive-hub.com/en/' />
+<link rel="alternate" type="application/json+oembed" href="https://dive-hub.com/en/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdive-hub.com%2Fen%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://dive-hub.com/en/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdive-hub.com%2Fen%2F&#038;format=xml" />
+<script>var ms_grabbing_curosr='https://dive-hub.com/wp-content/plugins/masterslider/public/assets/css/common/grabbing.cur',ms_grab_curosr='https://dive-hub.com/wp-content/plugins/masterslider/public/assets/css/common/grab.cur';</script>
+<meta name="generator" content="MasterSlider 2.15.0 - Responsive Touch Image Slider" />
+<style type="text/css">
+.qtranxs_flag_en {background-image: url(https://dive-hub.com/wp-content/plugins/qtranslate-x/flags/gb.png); background-repeat: no-repeat;}
+.qtranxs_flag_tr {background-image: url(https://dive-hub.com/wp-content/plugins/qtranslate-x/flags/tr.png); background-repeat: no-repeat;}
+.qtranxs_flag_ru {background-image: url(https://dive-hub.com/wp-content/plugins/qtranslate-x/flags/ru.png); background-repeat: no-repeat;}
+</style>
+<link hreflang="en" href="https://dive-hub.com/en/" rel="alternate" />
+<link hreflang="tr" href="https://dive-hub.com/tr/" rel="alternate" />
+<link hreflang="ru" href="https://dive-hub.com/ru/" rel="alternate" />
+<link hreflang="x-default" href="https://dive-hub.com/en/" rel="alternate" />
+<meta name="generator" content="qTranslate-X 3.4.6.8" />
+<script> var isTest = false; </script>
+<style id="js-media-query-css">.mk-event-countdown-ul:media(max-width:750px) li{width:90%;display:block;margin:0 auto 15px}.mk-event-countdown-ul-block li{width:90%;display:block;margin:0 auto 15px}.mk-process-steps:media(max-width:960px) ul:before{display:none!important}.mk-process-steps:media(max-width:960px) li{margin-bottom:30px!important;width:100%!important;text-align:center}</style><meta itemprop="author" content="" /><meta itemprop="datePublished" content="Friday July 31st, 2015" /><meta itemprop="dateModified" content="Wednesday March  8th, 2023" /><meta itemprop="publisher" content="Dive Hub" />	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://dive-hub.com/wp-content/plugins/js_composer_theme/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.4.6.4 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script type="text/javascript">function setREVStartSize(e){
+				try{ var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;					
+					if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+				}catch(d){console.log("Failure at Presize of Slider:"+d)}
+			};</script>
+<meta name="generator" content="Jupiter 6.0.2" />
+<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1678285007158{margin-bottom: 0px !important;}.vc_custom_1471893658015{margin: 0px !important;border-width: 0px !important;padding: 0px !important;}.vc_custom_1471893696677{margin: 0px !important;border-width: 0px !important;padding: 0px !important;}.vc_custom_1471893617302{margin: 0px !important;border-width: 0px !important;padding: 0px !important;}.vc_custom_1678285050805{margin-bottom: 0px !important;}.vc_custom_1678285172797{margin-bottom: 0px !important;}.vc_custom_1678285360446{margin-bottom: 0px !important;}.vc_custom_1472031991286{margin: 0px !important;border-width: 0px !important;padding: 0px !important;}.vc_custom_1472032006130{margin: 0px !important;border-width: 0px !important;padding: 0px !important;}.vc_custom_1472031978882{margin: 0px !important;border-width: 0px !important;padding: 0px !important;}.vc_custom_1472032076527{margin: 0px !important;border-width: 0px !important;padding: 0px !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body class="home page-template-default page page-id-66 _masterslider _msp_version_2.15.0 wpb-js-composer js-comp-ver-5.4.5 vc_responsive" itemscope="itemscope" itemtype="https://schema.org/WebPage"  data-adminbar="">
+
+	
+	<!-- Target for scroll anchors to achieve native browser bahaviour + possible enhancements like smooth scrolling -->
+	<div id="top-of-page"></div>
+
+		<div id="mk-boxed-layout">
+
+			<div id="mk-theme-container" class="trans-header">
+
+				 
+    <header data-height='90'
+                data-sticky-height='55'
+                data-responsive-height='90'
+                data-transparent-skin='dark'
+                data-header-style='1'
+                data-sticky-style='slide'
+                data-sticky-offset='header' id="mk-header-1" class="mk-header header-style-1 header-align-left  toolbar-false menu-hover-4 sticky-style-slide mk-background-stretch boxed-header  transparent-header dark-skin bg-false" role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader" >
+                    <div class="mk-header-holder">
+                                <div class="mk-header-inner add-header-height">
+
+                    <div class="mk-header-bg "></div>
+
+                    
+                                                <div class="mk-grid header-grid">
+                    
+                            <div class="mk-header-nav-container one-row-style menu-hover-style-4" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" >
+                                <nav class="mk-main-navigation js-main-nav"><ul id="menu-menu1" class="main-navigation-ul"><li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children no-mega-menu"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/about/">About</a>
+<ul style="" class="sub-menu ">
+	<li id="menu-item-6605" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/about/our-team/">Our Team</a></li>
+	<li id="menu-item-6571" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/about/history-of-cyprus/">History of Cyprus</a></li>
+</ul>
+</li>
+<li id="menu-item-6201" class="menu-item menu-item-type-post_type menu-item-object-page no-mega-menu"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/news/">News</a></li>
+<li id="menu-item-6780" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children no-mega-menu"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/galeries/">Galeries</a>
+<ul style="" class="sub-menu ">
+	<li id="menu-item-6949" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/galeries/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-6522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children no-mega-menu"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/services/">Services</a>
+<ul style="" class="sub-menu ">
+	<li id="menu-item-6532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/services/dives/">Dives</a><i class="menu-sub-level-arrow"><svg  class="mk-svg-icon" data-name="mk-icon-angle-right" data-cacheid="icon-6adf4609acde7" style=" height:16px; width: 5.7142857142857px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 1792"><path d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg></i>
+	<ul style="" class="sub-menu ">
+		<li id="menu-item-6547" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/services/boat-dives/">Boat Dives</a></li>
+		<li id="menu-item-6555" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/services/night-dives/">Night Dives</a></li>
+		<li id="menu-item-6560" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/services/shore-dives/">Shore Dives</a></li>
+		<li id="menu-item-6566" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/services/try-dives/">Try Dives</a></li>
+	</ul>
+</li>
+	<li id="menu-item-6523" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/services/dive-sites/">Dive Sites</a></li>
+</ul>
+</li>
+<li id="menu-item-6427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-mega-menu"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/">Courses</a>
+<ul style="" class="sub-menu mega_col_4">
+	<li id="menu-item-6428" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children mega_col_4 mk_mega_first"><div class="megamenu-title">PADI Courses</div>
+	<ul style="" class="sub-menu mega_col_4">
+		<li id="menu-item-6665" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/kids-bubblemaker/">KIDS (BUBBLEMAKER)</a></li>
+		<li id="menu-item-6662" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/discover-scuba-diving/">Discover Scuba Diving</a></li>
+		<li id="menu-item-6669" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/scuba-diver/">Scuba Diver</a></li>
+		<li id="menu-item-6666" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/open-water-diver/">Open Water Diver</a></li>
+		<li id="menu-item-6667" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/open-water-referral/">OPEN WATER REFERRAL</a></li>
+		<li id="menu-item-6671" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/upgrade-to-open-water/">Upgrade to Open Water</a></li>
+		<li id="menu-item-6670" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/specialities/">Specialities</a></li>
+		<li id="menu-item-6660" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/advanced-open-water/">Advanced Open Water</a></li>
+		<li id="menu-item-6661" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/adventure-diver/">Adventure Diver</a></li>
+		<li id="menu-item-6664" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/emergency-first-response/">Emergency First Response</a></li>
+		<li id="menu-item-6668" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/rescue-diver/">Rescue Diver</a></li>
+		<li id="menu-item-6663" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/dive-master/">Dive Master</a></li>
+	</ul>
+</li>
+	<li id="menu-item-6434" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children mega_col_4"><div class="megamenu-title">CMAS Courses</div>
+	<ul style="" class="sub-menu mega_col_4">
+		<li id="menu-item-6683" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/cmas-courses/cmas-1/">CMAS 1*</a></li>
+		<li id="menu-item-6684" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/cmas-courses/cmas-2/">CMAS 2**</a></li>
+		<li id="menu-item-6685" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/cmas-courses/cmas-3/">CMAS 3***</a></li>
+	</ul>
+</li>
+	<li id="menu-item-7458" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children mega_col_4"><div class="megamenu-title">TDI Courses</div>
+	<ul style="" class="sub-menu mega_col_4">
+		<li id="menu-item-7468" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/intro-to-tech/">Intro to Tech</a></li>
+		<li id="menu-item-7474" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/nitrox-diver/">Nitrox Diver</a></li>
+		<li id="menu-item-7478" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/advanced-nitrox-diver/">Advanced Nitrox Diver</a></li>
+		<li id="menu-item-7482" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/decompression-procedures/">Decompression Procedures</a></li>
+		<li id="menu-item-7490" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/advanced-nitrox-decompression-procedures-2/">Advanced Nitrox &#038; Decompression Procedures</a></li>
+		<li id="menu-item-7488" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/advanced-nitrox-introduction-to-tech-diving/">Advanced Nitrox &#038; Introduction to Tech Diving</a></li>
+		<li id="menu-item-7494" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/intro-to-tech-advanced-nitrox-deco-procedures/">Intro to Tech, Advanced Nitrox &#038; Deco Procedures</a></li>
+		<li id="menu-item-7497" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/extended-range-diver/">Extended Range Diver</a></li>
+		<li id="menu-item-7500" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/decompression-procedures-extended-range/">Decompression Procedures &#038; Extended Range</a></li>
+	</ul>
+</li>
+	<li id="menu-item-6524" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children mega_col_4"><div class="megamenu-title">DAN Courses</div>
+	<ul style="" class="sub-menu mega_col_4">
+		<li id="menu-item-6693" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/dan-courses/oxygen-provider/">Oxygen Provider</a></li>
+		<li id="menu-item-6692" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/dan-courses/bsaic-life-support-bls/">Basic Life Support (BLS)</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-6295" class="menu-item menu-item-type-post_type menu-item-object-page no-mega-menu"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/contact/">Contact</a></li>
+<li id="menu-item-6965" class="qtranxs-lang-menu qtranxs-lang-menu-en menu-item menu-item-type-custom menu-item-object-custom current-menu-parent menu-item-has-children no-mega-menu"><a class="menu-item-link js-smooth-scroll"  title="English" href="#">TR / RU:&nbsp;<img src="https://dive-hub.com/wp-content/plugins/qtranslate-x/flags/gb.png" alt="English" /></a>
+<ul style="" class="sub-menu ">
+	<li id="menu-item-7501" class="qtranxs-lang-menu-item qtranxs-lang-menu-item-en menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home"><a class="menu-item-link js-smooth-scroll"  title="English" href="https://dive-hub.com/en/"><img src="https://dive-hub.com/wp-content/plugins/qtranslate-x/flags/gb.png" alt="English" />&nbsp;English</a></li>
+	<li id="menu-item-7502" class="qtranxs-lang-menu-item qtranxs-lang-menu-item-tr menu-item menu-item-type-custom menu-item-object-custom"><a class="menu-item-link js-smooth-scroll"  title="Türkçe" href="https://dive-hub.com/tr/"><img src="https://dive-hub.com/wp-content/plugins/qtranslate-x/flags/tr.png" alt="Türkçe" />&nbsp;Türkçe</a></li>
+	<li id="menu-item-7503" class="qtranxs-lang-menu-item qtranxs-lang-menu-item-ru menu-item menu-item-type-custom menu-item-object-custom"><a class="menu-item-link js-smooth-scroll"  title="Русский" href="https://dive-hub.com/ru/"><img src="https://dive-hub.com/wp-content/plugins/qtranslate-x/flags/ru.png" alt="Русский" />&nbsp;Русский</a></li>
+</ul>
+</li>
+</ul></nav>
+<div class="main-nav-side-search">
+	
+	<a class="mk-search-trigger add-header-height mk-toggle-trigger" href="#"><i class="mk-svg-icon-wrapper"><svg  class="mk-svg-icon" data-name="mk-icon-search" data-cacheid="icon-6adf4609ada9c" style=" height:16px; width: 14.857142857143px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1664 1792"><path d="M1152 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"/></svg></i></a>
+
+	<div id="mk-nav-search-wrapper" class="mk-box-to-trigger">
+		<form method="get" id="mk-header-navside-searchform" action="https://dive-hub.com/en/">
+			<input type="text" name="s" id="mk-ajax-search-input" autocomplete="off" />
+			<input type="hidden" id="security" name="security" value="428a067c07" /><input type="hidden" name="_wp_http_referer" value="/en/" />			<i class="nav-side-search-icon"><input type="submit" value=""/><svg  class="mk-svg-icon" data-name="mk-moon-search-3" data-cacheid="icon-6adf4609ae954" style=" height:16px; width: 16px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M496.131 435.698l-121.276-103.147c-12.537-11.283-25.945-16.463-36.776-15.963 28.628-33.534 45.921-77.039 45.921-124.588 0-106.039-85.961-192-192-192-106.038 0-192 85.961-192 192s85.961 192 192 192c47.549 0 91.054-17.293 124.588-45.922-.5 10.831 4.68 24.239 15.963 36.776l103.147 121.276c17.661 19.623 46.511 21.277 64.11 3.678s15.946-46.449-3.677-64.11zm-304.131-115.698c-70.692 0-128-57.308-128-128s57.308-128 128-128 128 57.308 128 128-57.307 128-128 128z"/></svg></i>
+		</form>
+		<ul id="mk-nav-search-result" class="ui-autocomplete"></ul>
+	</div>
+
+</div>
+
+                            </div>
+                            
+<div class="mk-nav-responsive-link">
+    <div class="mk-css-icon-menu">
+        <div class="mk-css-icon-menu-line-1"></div>
+        <div class="mk-css-icon-menu-line-2"></div>
+        <div class="mk-css-icon-menu-line-3"></div>
+    </div>
+</div>	<div class=" header-logo fit-logo-img add-header-height  logo-has-sticky">
+		<a href="https://dive-hub.com/en/" title="Dive Hub">
+
+			<img class="mk-desktop-logo dark-logo "
+				title=""
+				alt=""
+				src="http://dive-hub.com/wp-content/uploads/2015/07/logo2-01.png" />
+
+							<img class="mk-desktop-logo light-logo "
+					title=""
+					alt=""
+					src="http://dive-hub.com/wp-content/uploads/2015/07/logo2-01.png" />
+			
+			
+							<img class="mk-sticky-logo "
+					title=""
+					alt=""
+					src="http://dive-hub.com/wp-content/uploads/2015/07/logo2-01.png" />
+					</a>
+	</div>
+
+                                            </div>
+                    
+                    <div class="mk-header-right">
+                                            </div>
+
+                </div>
+                
+<div class="mk-responsive-wrap">
+
+	<nav class="menu-menu1-container"><ul id="menu-menu1-1" class="mk-responsive-nav"><li id="responsive-menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/about/">About</a><span class="mk-nav-arrow mk-nav-sub-closed"><svg  class="mk-svg-icon" data-name="mk-moon-arrow-down" data-cacheid="icon-6adf4609b3247" style=" height:16px; width: 16px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 192l-96-96-160 160-160-160-96 96 256 255.999z"/></svg></span>
+<ul class="sub-menu ">
+	<li id="responsive-menu-item-6605" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/about/our-team/">Our Team</a></li>
+	<li id="responsive-menu-item-6571" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/about/history-of-cyprus/">History of Cyprus</a></li>
+</ul>
+</li>
+<li id="responsive-menu-item-6201" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/news/">News</a></li>
+<li id="responsive-menu-item-6780" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/galeries/">Galeries</a><span class="mk-nav-arrow mk-nav-sub-closed"><svg  class="mk-svg-icon" data-name="mk-moon-arrow-down" data-cacheid="icon-6adf4609b4141" style=" height:16px; width: 16px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 192l-96-96-160 160-160-160-96 96 256 255.999z"/></svg></span>
+<ul class="sub-menu ">
+	<li id="responsive-menu-item-6949" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/galeries/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="responsive-menu-item-6522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/services/">Services</a><span class="mk-nav-arrow mk-nav-sub-closed"><svg  class="mk-svg-icon" data-name="mk-moon-arrow-down" data-cacheid="icon-6adf4609b452f" style=" height:16px; width: 16px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 192l-96-96-160 160-160-160-96 96 256 255.999z"/></svg></span>
+<ul class="sub-menu ">
+	<li id="responsive-menu-item-6532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/services/dives/">Dives</a>
+	<ul class="sub-menu ">
+		<li id="responsive-menu-item-6547" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/services/boat-dives/">Boat Dives</a></li>
+		<li id="responsive-menu-item-6555" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/services/night-dives/">Night Dives</a></li>
+		<li id="responsive-menu-item-6560" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/services/shore-dives/">Shore Dives</a></li>
+		<li id="responsive-menu-item-6566" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/services/try-dives/">Try Dives</a></li>
+	</ul>
+</li>
+	<li id="responsive-menu-item-6523" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/services/dive-sites/">Dive Sites</a></li>
+</ul>
+</li>
+<li id="responsive-menu-item-6427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/">Courses</a><span class="mk-nav-arrow mk-nav-sub-closed"><svg  class="mk-svg-icon" data-name="mk-moon-arrow-down" data-cacheid="icon-6adf4609b4a4b" style=" height:16px; width: 16px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 192l-96-96-160 160-160-160-96 96 256 255.999z"/></svg></span>
+<ul class="sub-menu ">
+	<li id="responsive-menu-item-6428" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/">PADI Courses</a>
+	<ul class="sub-menu ">
+		<li id="responsive-menu-item-6665" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/kids-bubblemaker/">KIDS (BUBBLEMAKER)</a></li>
+		<li id="responsive-menu-item-6662" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/discover-scuba-diving/">Discover Scuba Diving</a></li>
+		<li id="responsive-menu-item-6669" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/scuba-diver/">Scuba Diver</a></li>
+		<li id="responsive-menu-item-6666" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/open-water-diver/">Open Water Diver</a></li>
+		<li id="responsive-menu-item-6667" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/open-water-referral/">OPEN WATER REFERRAL</a></li>
+		<li id="responsive-menu-item-6671" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/upgrade-to-open-water/">Upgrade to Open Water</a></li>
+		<li id="responsive-menu-item-6670" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/specialities/">Specialities</a></li>
+		<li id="responsive-menu-item-6660" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/advanced-open-water/">Advanced Open Water</a></li>
+		<li id="responsive-menu-item-6661" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/adventure-diver/">Adventure Diver</a></li>
+		<li id="responsive-menu-item-6664" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/emergency-first-response/">Emergency First Response</a></li>
+		<li id="responsive-menu-item-6668" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/rescue-diver/">Rescue Diver</a></li>
+		<li id="responsive-menu-item-6663" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/padi-courses/dive-master/">Dive Master</a></li>
+	</ul>
+</li>
+	<li id="responsive-menu-item-6434" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/cmas-courses/">CMAS Courses</a>
+	<ul class="sub-menu ">
+		<li id="responsive-menu-item-6683" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/cmas-courses/cmas-1/">CMAS 1*</a></li>
+		<li id="responsive-menu-item-6684" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/cmas-courses/cmas-2/">CMAS 2**</a></li>
+		<li id="responsive-menu-item-6685" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/cmas-courses/cmas-3/">CMAS 3***</a></li>
+	</ul>
+</li>
+	<li id="responsive-menu-item-7458" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/tdi-courses/">TDI Courses</a>
+	<ul class="sub-menu ">
+		<li id="responsive-menu-item-7468" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/intro-to-tech/">Intro to Tech</a></li>
+		<li id="responsive-menu-item-7474" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/nitrox-diver/">Nitrox Diver</a></li>
+		<li id="responsive-menu-item-7478" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/advanced-nitrox-diver/">Advanced Nitrox Diver</a></li>
+		<li id="responsive-menu-item-7482" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/decompression-procedures/">Decompression Procedures</a></li>
+		<li id="responsive-menu-item-7490" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/advanced-nitrox-decompression-procedures-2/">Advanced Nitrox &#038; Decompression Procedures</a></li>
+		<li id="responsive-menu-item-7488" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/advanced-nitrox-introduction-to-tech-diving/">Advanced Nitrox &#038; Introduction to Tech Diving</a></li>
+		<li id="responsive-menu-item-7494" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/intro-to-tech-advanced-nitrox-deco-procedures/">Intro to Tech, Advanced Nitrox &#038; Deco Procedures</a></li>
+		<li id="responsive-menu-item-7497" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/extended-range-diver/">Extended Range Diver</a></li>
+		<li id="responsive-menu-item-7500" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/decompression-procedures-extended-range/">Decompression Procedures &#038; Extended Range</a></li>
+	</ul>
+</li>
+	<li id="responsive-menu-item-6524" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/dan-courses/">DAN Courses</a>
+	<ul class="sub-menu ">
+		<li id="responsive-menu-item-6693" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/dan-courses/oxygen-provider/">Oxygen Provider</a></li>
+		<li id="responsive-menu-item-6692" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/courses/dan-courses/bsaic-life-support-bls/">Basic Life Support (BLS)</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="responsive-menu-item-6295" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://dive-hub.com/en/contact/">Contact</a></li>
+<li id="responsive-menu-item-6965" class="qtranxs-lang-menu qtranxs-lang-menu-en menu-item menu-item-type-custom menu-item-object-custom current-menu-parent menu-item-has-children"><a class="menu-item-link js-smooth-scroll"  title="English" href="#">TR / RU:&nbsp;<img src="https://dive-hub.com/wp-content/plugins/qtranslate-x/flags/gb.png" alt="English" /></a><span class="mk-nav-arrow mk-nav-sub-closed"><svg  class="mk-svg-icon" data-name="mk-moon-arrow-down" data-cacheid="icon-6adf4609b587e" style=" height:16px; width: 16px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 192l-96-96-160 160-160-160-96 96 256 255.999z"/></svg></span>
+<ul class="sub-menu ">
+	<li id="responsive-menu-item-7501" class="qtranxs-lang-menu-item qtranxs-lang-menu-item-en menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home"><a class="menu-item-link js-smooth-scroll"  title="English" href="https://dive-hub.com/en/"><img src="https://dive-hub.com/wp-content/plugins/qtranslate-x/flags/gb.png" alt="English" />&nbsp;English</a></li>
+	<li id="responsive-menu-item-7502" class="qtranxs-lang-menu-item qtranxs-lang-menu-item-tr menu-item menu-item-type-custom menu-item-object-custom"><a class="menu-item-link js-smooth-scroll"  title="Türkçe" href="https://dive-hub.com/tr/"><img src="https://dive-hub.com/wp-content/plugins/qtranslate-x/flags/tr.png" alt="Türkçe" />&nbsp;Türkçe</a></li>
+	<li id="responsive-menu-item-7503" class="qtranxs-lang-menu-item qtranxs-lang-menu-item-ru menu-item menu-item-type-custom menu-item-object-custom"><a class="menu-item-link js-smooth-scroll"  title="Русский" href="https://dive-hub.com/ru/"><img src="https://dive-hub.com/wp-content/plugins/qtranslate-x/flags/ru.png" alt="Русский" />&nbsp;Русский</a></li>
+</ul>
+</li>
+</ul></nav>
+			<form class="responsive-searchform" method="get" action="https://dive-hub.com/en/">
+		    <input type="text" class="text-input" value="" name="s" id="s" placeholder="Search.." />
+		    <i><input value="" type="submit" /><svg  class="mk-svg-icon" data-name="mk-icon-search" data-cacheid="icon-6adf4609b5ca8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1664 1792"><path d="M1152 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"/></svg></i>
+		</form>
+		
+
+</div>
+        
+            </div>
+        
+                        
+    </header>
+
+		<div id="theme-page" class="master-holder  clearfix" itemscope="itemscope" itemtype="https://schema.org/Blog" >
+			<div class="master-holder-bg-holder">
+				<div id="theme-page-bg" class="master-holder-bg js-el"  ></div>
+			</div>
+			<div class="mk-main-wrapper-holder">
+				<div id="mk-page-id-66" class="theme-page-wrapper mk-main-wrapper mk-grid full-layout no-padding">
+					<div class="theme-content no-padding" itemprop="mainEntityOfPage">
+							
+<div  data-mk-full-width="true" data-mk-full-width-init="false" data-mk-stretch-content="true" class="wpb_row vc_row vc_row-fluid  mk-fullwidth-true  attched-false     js-master-row ">
+				<style id="mk-shortcode-style-2" type="text/css">. { }</style>
+<div class="vc_col-sm-12 wpb_column column_container   _ height-full">
+	
+<div class="mk-edge-wrapper   js-el"
+	style=""
+	data-mk-component="FullHeight">
+	<div class="clipper">
+		<div id="mk-edge-slider-3" class="mk-slider mk-edge-slider   js-el"
+			style="background-color: #000000;"
+			data-animation="slide"
+			data-mk-component="EdgeSlider"
+			data-edgeSlider-config='{
+				"lazyload" : "true",
+				"effect" : "slide",
+				"displayTime" : "7000",
+				"transitionTime" : "700",
+				"nav" : ".mk-edge-nav-3",
+				"paginationEl" : ".swiper-pagination-3",
+				"firstEl" : true }'
+
+			layout-skipArrow="true"
+			layout-pagination="true"
+		>
+
+			<div class="mk-slider-holder   js-el"
+									data-mk-component="Parallax"
+					data-parallax-config='{"speed" : 0.7 }'
+							>
+
+				<div class="mk-slider-slides">
+				
+								<div class="mk-slider-slide  left_center mk-background-stretch" data-header-skin="dark">
+
+				
+				
+				
+
+											<div data-thumb="https://dive-hub.com/wp-content/uploads/2017/06/dsc_1310-736x414.jpg" class="mk-section-image slide"  style="" data-mk-img-set='{"landscape":{"desktop":"https://dive-hub.com/wp-content/uploads/2017/06/dsc_1310.jpg","tablet":"https://dive-hub.com/wp-content/uploads/2017/06/dsc_1310-1024x768.jpg","mobile":"https://dive-hub.com/wp-content/uploads/2017/06/dsc_1310-736x414.jpg"},"responsive":"true"}'></div>
+						
+
+
+
+						<div class="slider-content">
+						<div class="mk-grid">
+
+												<div class="edge-slide-content edge-default_anim caption-light" style="width: 70%">
+
+																	<div class="edge-title-area">
+
+																							 <div class="edge-title" style="font-size : 3.125em;font-weight:300;">
+														Get more experience												 </div>
+												
+																							<div class="edge-desc" style="">
+													Advance your scuba skills												</div>
+																					</div>
+									
+									
+									
+								</div><!-- edge-slide-content-->
+							</div><!-- mk-grid-->
+						</div><!-- slider-content-->
+					</div><!-- mk-slider-slide-->
+
+				
+								<div class="mk-slider-slide  right_top mk-background-stretch" data-header-skin="dark">
+
+				
+				
+				
+
+											<div data-thumb="https://dive-hub.com/wp-content/uploads/2017/06/dsc_0034-736x414.jpg" class="mk-section-image slide"  style="" data-mk-img-set='{"landscape":{"desktop":"https://dive-hub.com/wp-content/uploads/2017/06/dsc_0034.jpg","tablet":"https://dive-hub.com/wp-content/uploads/2017/06/dsc_0034-1024x768.jpg","mobile":"https://dive-hub.com/wp-content/uploads/2017/06/dsc_0034-736x414.jpg"},"responsive":"true"}'></div>
+						
+
+
+
+						<div class="slider-content">
+						<div class="mk-grid">
+
+												<div class="edge-slide-content edge-default_anim caption-light" style="width: 70%">
+
+																	<div class="edge-title-area">
+
+																							 <div class="edge-title" style="font-size : 3.125em;font-weight:300;">
+														Dive Hub Iskele												 </div>
+												
+																							<div class="edge-desc" style="">
+													Where you can find more than you expect													</div>
+																					</div>
+									
+									
+									
+								</div><!-- edge-slide-content-->
+							</div><!-- mk-grid-->
+						</div><!-- slider-content-->
+					</div><!-- mk-slider-slide-->
+
+				
+								<div class="mk-slider-slide  left_center mk-background-stretch" data-header-skin="dark">
+
+				
+				
+				
+
+											<div data-thumb="https://dive-hub.com/wp-content/uploads/2017/06/dsc_0049-736x414.jpg" class="mk-section-image slide"  style="" data-mk-img-set='{"landscape":{"desktop":"https://dive-hub.com/wp-content/uploads/2017/06/dsc_0049.jpg","tablet":"https://dive-hub.com/wp-content/uploads/2017/06/dsc_0049-1024x768.jpg","mobile":"https://dive-hub.com/wp-content/uploads/2017/06/dsc_0049-736x414.jpg"},"responsive":"true"}'></div>
+						
+
+
+
+						<div class="slider-content">
+						<div class="mk-grid">
+
+												<div class="edge-slide-content edge-default_anim caption-light" style="width: 70%">
+
+																	<div class="edge-title-area">
+
+																							 <div class="edge-title" style="font-size : 3.125em;font-weight:300;">
+														Socialize, meet new people												 </div>
+												
+																							<div class="edge-desc" style="">
+													Learn more from other’s experiences												</div>
+																					</div>
+									
+									
+									
+								</div><!-- edge-slide-content-->
+							</div><!-- mk-grid-->
+						</div><!-- slider-content-->
+					</div><!-- mk-slider-slide-->
+
+				
+								<div class="mk-slider-slide  left_center mk-background-stretch" data-header-skin="dark">
+
+				
+				
+				
+
+											<div data-thumb="https://dive-hub.com/wp-content/uploads/2016/03/IMG_2553-copy-736x414.jpg" class="mk-section-image slide"  style="" data-mk-img-set='{"landscape":{"desktop":"https://dive-hub.com/wp-content/uploads/2016/03/IMG_2553-copy.jpg","tablet":"https://dive-hub.com/wp-content/uploads/2016/03/IMG_2553-copy-1024x768.jpg","mobile":"https://dive-hub.com/wp-content/uploads/2016/03/IMG_2553-copy-736x414.jpg"},"responsive":"true"}'></div>
+						
+
+
+
+						<div class="slider-content">
+						<div class="mk-grid">
+
+												<div class="edge-slide-content edge-default_anim caption-light" style="width: 70%">
+
+																	<div class="edge-title-area">
+
+																							 <div class="edge-title" style="font-size : 3.125em;font-weight:bold;">
+														Join the Dive Hub team												 </div>
+												
+																							<div class="edge-desc" style="">
+													Enjoy the dives in open water												</div>
+																					</div>
+									
+									
+									
+								</div><!-- edge-slide-content-->
+							</div><!-- mk-grid-->
+						</div><!-- slider-content-->
+					</div><!-- mk-slider-slide-->
+
+				
+								<div class="mk-slider-slide  center_center mk-background-stretch" data-header-skin="dark">
+
+				
+				
+											<div class="mk-video-color-mask" style="
+								background-color: #000000;
+								opacity: 0.3;
+							"></div>
+						
+
+											<div data-thumb="https://dive-hub.com/wp-content/uploads/2015/08/dsc_00w06-736x414.jpg" class="mk-section-image slide"  style="" data-mk-img-set='{"landscape":{"desktop":"https://dive-hub.com/wp-content/uploads/2015/08/dsc_00w06.jpg","tablet":"https://dive-hub.com/wp-content/uploads/2015/08/dsc_00w06-1024x768.jpg","mobile":"https://dive-hub.com/wp-content/uploads/2015/08/dsc_00w06-736x414.jpg"},"responsive":"true"}'></div>
+						
+
+
+
+						<div class="slider-content">
+						<div class="mk-grid">
+
+												<div class="edge-slide-content edge-default_anim caption-light" style="width: 70%">
+
+																	<div class="edge-title-area">
+
+																							 <div class="edge-title" style="font-size : 3.125em;font-weight:bold;">
+														Get more experience												 </div>
+												
+																							<div class="edge-desc" style="">
+													Advance your scuba skills												</div>
+																					</div>
+									
+									
+									
+								</div><!-- edge-slide-content-->
+							</div><!-- mk-grid-->
+						</div><!-- slider-content-->
+					</div><!-- mk-slider-slide-->
+
+				
+								<div class="mk-slider-slide  left_center mk-background-stretch" data-header-skin="dark">
+
+				
+				
+				
+
+											<div data-thumb="https://dive-hub.com/wp-content/uploads/2015/08/dsc_1450-736x414.jpg" class="mk-section-image slide"  style="" data-mk-img-set='{"landscape":{"desktop":"https://dive-hub.com/wp-content/uploads/2015/08/dsc_1450.jpg","tablet":"https://dive-hub.com/wp-content/uploads/2015/08/dsc_1450-1024x768.jpg","mobile":"https://dive-hub.com/wp-content/uploads/2015/08/dsc_1450-736x414.jpg"},"responsive":"true"}'></div>
+						
+
+
+
+						<div class="slider-content">
+						<div class="mk-grid">
+
+												<div class="edge-slide-content edge-default_anim caption-light" style="width: 70%">
+
+																	<div class="edge-title-area">
+
+																							 <div class="edge-title" style="font-size : 3.125em;font-weight:bold;">
+														Dive and learn more about yourself												 </div>
+												
+																							<div class="edge-desc" style="">
+													Experience what you really are capable of												</div>
+																					</div>
+									
+									
+									
+								</div><!-- edge-slide-content-->
+							</div><!-- mk-grid-->
+						</div><!-- slider-content-->
+					</div><!-- mk-slider-slide-->
+
+				
+								<div class="mk-slider-slide  left_center mk-background-stretch" data-header-skin="dark">
+
+				
+				
+				
+
+											<div data-thumb="https://dive-hub.com/wp-content/uploads/2015/08/dsc_0174-736x414.jpg" class="mk-section-image slide"  style="" data-mk-img-set='{"landscape":{"desktop":"https://dive-hub.com/wp-content/uploads/2015/08/dsc_0174.jpg","tablet":"https://dive-hub.com/wp-content/uploads/2015/08/dsc_0174-1024x768.jpg","mobile":"https://dive-hub.com/wp-content/uploads/2015/08/dsc_0174-736x414.jpg"},"responsive":"true"}'></div>
+						
+
+
+
+						<div class="slider-content">
+						<div class="mk-grid">
+
+												<div class="edge-slide-content edge-default_anim caption-light" style="width: 70%">
+
+																	<div class="edge-title-area">
+
+																							 <div class="edge-title" style="font-size : 3.125em;font-weight:bold;">
+														Dive Hub Iskele												 </div>
+												
+																							<div class="edge-desc" style="">
+													Where you can find more than you expect												</div>
+																					</div>
+									
+									
+									
+								</div><!-- edge-slide-content-->
+							</div><!-- mk-grid-->
+						</div><!-- slider-content-->
+					</div><!-- mk-slider-slide-->
+
+								</div> <!-- mk-slider-slides -->
+
+
+									<div class="edge-skip-slider mk-skip-to-next" data-skin="dark">
+						<svg  class="mk-svg-icon" data-name="mk-jupiter-icon-arrow-bottom" data-cacheid="icon-6adf4609dbe17" style=" height:16px; width: 16px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 121.6c0 8-3.2 16-8 22.4l-225.6 240c-6.4 6.4-14.4 9.6-24 9.6-8 0-16-3.2-22.4-9.6l-224-240c-11.2-12.8-11.2-33.6 1.6-44.8 12.8-12.8 32-11.2 44.8 1.6l201.6 214.4 203.2-216c11.2-12.8 32-12.8 44.8 0 4.8 6.4 8 14.4 8 22.4z"/></svg>					</div>
+				
+
+				
+					<span class="mk-edge-nav mk-edge-nav-3 nav-slit">
+						<a class="mk-edge-prev" data-direction="prev" data-skin="dark">
+							<span class="mk-edge-icon-wrap"><svg  class="mk-svg-icon" data-name="mk-jupiter-icon-arrow-left" data-cacheid="icon-6adf4609dc0f6" style=" height:16px; width: 16px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M368 505.6c-8 0-16-3.2-22.4-8l-240-225.6c-6.4-6.4-9.6-14.4-9.6-24 0-8 3.2-16 9.6-22.4l240-224c12.8-11.2 33.6-11.2 44.8 1.6 12.8 12.8 11.2 32-1.6 44.8l-214.4 201.6 216 203.2c12.8 11.2 12.8 32 0 44.8-4.8 4.8-14.4 8-22.4 8z"/></svg></span>
+							<div class="mk-edge-nav">
+								<span class="edge-nav-bg"></span>
+								<span class="prev-item-caption nav-item-caption"></span>
+							</div>
+						</a>
+					</span>
+
+					<span class="mk-edge-nav mk-edge-nav-3 nav-slit">
+						<a class="mk-edge-next" data-direction="next" data-skin="dark">
+							<span class="mk-edge-icon-wrap"><svg  class="mk-svg-icon" data-name="mk-jupiter-icon-arrow-right" data-cacheid="icon-6adf4609dc834" style=" height:16px; width: 16px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M144 505.6c8 0 16-3.2 22.4-8l240-225.6c6.4-6.4 9.6-14.4 9.6-22.4s-3.2-16-9.6-22.4l-240-224c-12.8-12.8-32-12.8-44.8 0s-11.2 32 1.6 44.8l214.4 201.6-216 203.2c-12.8 11.2-12.8 32 0 44.8 6.4 4.8 14.4 8 22.4 8z"/></svg></span>
+							<div class="mk-edge-nav">
+								<span class="edge-nav-bg"></span>
+								<span class="next-item-caption nav-item-caption"></span>
+							</div>
+						</a>
+					</span>
+				
+
+									<div class="swiper-pagination swiper-pagination-3 pagination-stroke" data-skin="dark"></div>
+				
+
+			</div> <!-- mk-slider-holder -->
+		</div> <!-- mk-slider -->
+	</div> <!-- clipper -->
+
+	<div class="mk-section-preloader js-el" data-mk-component="Preloader">
+		<div class="mk-section-preloader__icon"></div>
+	</div>
+
+</div> <!-- fixed-parent -->
+</div>
+	</div>
+<div class="vc_row-full-width vc_clearfix"></div>
+<div class="mk-page-section-wrapper" data-mk-full-width="true" data-mk-full-width-init="true" data-mk-stretch-content="true">
+    <div id="page-section-4"class="mk-page-section self-hosted   full_layout full-width-4 js-el js-master-row    "    data-intro-effect="false">
+
+
+            
+            <div class="mk-page-section-inner">
+                
+
+
+<div class="mk-video-color-mask"></div>
+
+                
+                            </div>
+
+            
+        <div class="page-section-content vc_row-fluid mk-grid " >
+            <div class="mk-padding-wrapper wpb_row"><style id="mk-shortcode-style-5" type="text/css">. { }</style>
+<div class="vc_col-sm-12 wpb_column column_container   _ height-full">
+	
+
+<div class="wpb_row vc_inner vc_row vc_row-fluid    attched-false   ">
+		
+		<div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
+<div id="padding-6" class="mk-padding-divider   clearfix"></div>
+
+<style id="mk-shortcode-style-6" type="text/css">#padding-6 { height:130px; }</style>
+<h2 id="fancy-title-7" class="mk-fancy-title  simple-style   color-single">
+	<span>
+				
+<p>Dive Hub, where you can find more than you expect!</p>
+			</span>
+</h2>
+<div class="clearboth"></div>
+
+
+
+<style id="mk-shortcode-style-7" type="text/css">#fancy-title-7{letter-spacing:0px;text-transform:initial;font-size:19px;color:;text-align:center;font-style:inherit;font-weight:bold;padding-top:0px;padding-bottom:20px;}#fancy-title-7 span{}#fancy-title-7 span i{font-style:inherit;} @media handheld, only screen and (max-width:767px) { #fancy-title-7 { text-align:center !important; } }</style><style id="mk-shortcode-style-8" type="text/css">#text-block-8 { margin-bottom:0px; text-align:center; }</style>
+<div id="text-block-8" class="mk-text-block   ">
+
+	
+	<p>Dive Hub is not only a diving centre where you would dive and leave, but rather is the place in Northern Cyprus where you will feel yourself at your own summerhouse relaxing and enjoying your drink after a couple of dives, watching your pictures on computer taken by Dive Hub divers during your dives. Visit us! Explore what is beyond diving &#8230;</p>
+
+	<div class="clearboth"></div>
+</div>
+
+</div></div></div>		
+</div></div>
+</div>
+            <div class="clearboth"></div>
+        </div>
+
+
+            
+            
+            
+
+        <div class="clearboth"></div>
+    </div>
+</div>
+<div class="vc_row-full-width vc_clearfix"></div>
+
+<style id="mk-shortcode-style-4" type="text/css">.full-width-4 { min-height:100px; margin-bottom:0px; } .full-width-4 .page-section-content { padding:10px 0 10px; } #background-layer--4 { ; background-position:left top; background-repeat:repeat; ; } #background-layer--4 .mk-color-layer { ; width:100%; height:100%; position:absolute; top:0; left:0; }</style>
+<div class="mk-page-section-wrapper" data-mk-full-width="true" data-mk-full-width-init="true" data-mk-stretch-content="true">
+    <div id="page-section-9"class="mk-page-section self-hosted   full_layout full-width-9 js-el js-master-row    "    data-intro-effect="false">
+
+
+            
+            <div class="mk-page-section-inner">
+                
+
+
+<div class="mk-video-color-mask"></div>
+
+                
+                            </div>
+
+            
+        <div class="page-section-content vc_row-fluid mk-grid " >
+            <div class="mk-padding-wrapper wpb_row"><style id="mk-shortcode-style-10" type="text/css">. { }</style>
+<div class="vc_col-sm-6 wpb_column column_container   _ height-full">
+	<div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text" ><span class="vc_sep_holder vc_sep_holder_l"><span  class="vc_sep_line"></span></span><h4>Diving</h4><span class="vc_sep_holder vc_sep_holder_r"><span  class="vc_sep_line"></span></span>
+</div>
+<div class="mk-circle-image" id="mk-circle-image-11">
+	<div class="mk-circle-image__holder">
+
+	<img class="mk-circle-image__img" title="" alt="" src="http://dive-hub.com/wp-content/uploads/bfi_thumb/43-n88rhqsf4oit8omim94w9yjj0diw1f2a63tty8b45s.jpg">
+</div>
+</div>
+<div class="clearboth"></div>
+
+<div id="padding-12" class="mk-padding-divider   clearfix"></div>
+
+<style id="mk-shortcode-style-12" type="text/css">#padding-12 { height:30px; }</style><style id="mk-shortcode-style-13" type="text/css">#text-block-13 { margin-bottom:0px; text-align:center; }</style>	<div class=" vc_custom_1678285007158">
+
+<div id="text-block-13" class="mk-text-block   ">
+
+	
+	<p>Dive Hub offers you a wide range of dive sites in the eastern coast of Northern Cyprus to ensure your satisfaction and enjoyment no matter what the aim of diving is. You may come for photography taking, experience some new dive sites, relax and enjoy the underwater for a longer time, or just to discover SCUBA diving experience. We will make sure you get more than you expect. You can chose your dive sites from the detailed list, or contact us for a special dive plan that will suit you best to ensure your enjoyment.</p>
+
+	<div class="clearboth"></div>
+</div>
+
+	</div>
+</div>
+<style id="mk-shortcode-style-14" type="text/css">. { }</style>
+<div class="vc_col-sm-6 wpb_column column_container   _ height-full">
+	<div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text" ><span class="vc_sep_holder vc_sep_holder_l"><span  class="vc_sep_line"></span></span><h4>Training</h4><span class="vc_sep_holder vc_sep_holder_r"><span  class="vc_sep_line"></span></span>
+</div>
+<div class="mk-circle-image" id="mk-circle-image-15">
+	<div class="mk-circle-image__holder">
+
+	<img class="mk-circle-image__img" title="" alt="" src="http://dive-hub.com/wp-content/uploads/bfi_thumb/7-n88ri30blizjfm4rmwf1odgiqdunthesjsb56tszww.jpg">
+</div>
+</div>
+<div class="clearboth"></div>
+
+<div id="padding-16" class="mk-padding-divider   clearfix"></div>
+
+<style id="mk-shortcode-style-16" type="text/css">#padding-16 { height:30px; }</style><style id="mk-shortcode-style-17" type="text/css">#text-block-17 { margin-bottom:0px; text-align:center; }</style>
+<div id="text-block-17" class="mk-text-block   ">
+
+	
+	<p>You can start your SCUBA experience with us or advance your SCUBA skills adding up on your knowledge as well as gaining more experience under the water. Dive Hub offers diving education of various levels from various systems. For more detailed information visit training page. Dive Hub offers individual trainings as well as group trainings. All you need to do is to decide which one you would love to attend most. It is up to you to decide whether you enjoy the group dynamic most, or you would rather feel more comfortable in a one on one education. If you feel even a slightest discomfort or doubt about underwater, we would happily help you overcome these untrue feelings with the comfort of calm Northern Cyprus sea, relieving the confidence and letting you discover more about your hidden capabilities&#8230;</p>
+<p>After all underwater is really worth to discover.</p>
+
+	<div class="clearboth"></div>
+</div>
+
+
+<div id="padding-18" class="mk-padding-divider   clearfix"></div>
+
+<style id="mk-shortcode-style-18" type="text/css">#padding-18 { height:20px; }</style></div>
+</div>
+            <div class="clearboth"></div>
+        </div>
+
+
+            
+            
+            
+
+        <div class="clearboth"></div>
+    </div>
+</div>
+<div class="vc_row-full-width vc_clearfix"></div>
+
+<style id="mk-shortcode-style-9" type="text/css">.full-width-9 { min-height:100px; margin-bottom:0px; } .full-width-9 .page-section-content { padding:10px 0 10px; } #background-layer--9 { ; background-position:left top; background-repeat:repeat; ; } #background-layer--9 .mk-color-layer { ; width:100%; height:100%; position:absolute; top:0; left:0; }</style>
+<div class="mk-page-section-wrapper" data-mk-full-width="true" data-mk-full-width-init="true" data-mk-stretch-content="true">
+    <div id="page-section-19"class="mk-page-section self-hosted   full_layout full-width-19 js-el js-master-row   drop-top-shadow "    data-intro-effect="false">
+
+
+            
+            <div class="mk-page-section-inner">
+                
+
+
+<div class="mk-video-color-mask"></div>
+
+                
+                            </div>
+
+            
+        <div class="page-section-content vc_row-fluid page-section-fullwidth " >
+            <div class="mk-padding-wrapper wpb_row"><style id="mk-shortcode-style-20" type="text/css">. { }</style>
+<div class="vc_col-sm-12 wpb_column column_container   _ height-full">
+	
+
+<div class="wpb_row vc_inner vc_row vc_row-fluid    attched-false   vc_custom_1471893658015 ">
+		
+		<div class="wpb_column vc_column_container vc_col-sm-8 vc_col-has-fill"><div class="vc_column-inner vc_custom_1471893696677"><div class="wpb_wrapper"><div class="wpb_gmaps_widget wpb_content_element vc_custom_1471893617302" >
+		<div class="wpb_wrapper">
+		<div class="wpb_map_wraper">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.7636171215877!2d33.929009315610536!3d35.287002980288115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dfb02d45371c0d%3A0x6ada1c243e5ff649!2s%C4%B0skele+Dive+Hub!5e0!3m2!1sen!2s!4v1471893537583" width="600" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>		</div>
+	</div>
+</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><style id="mk-shortcode-style-21" type="text/css">#mk-button-21 { margin-bottom:15px; margin-top:50px; margin-right:15px; } #mk-button-21 .mk-button { display:inline-block; max-width:100%; }</style>
+<div id="mk-button-21" class="mk-button-container _ relative    block text-center ">
+
+	
+		<a  href="tel:+905428600119"   target="_self" class="mk-button js-smooth-scroll mk-button--dimension-outline mk-button--size-xx-large mk-button--corner-rounded skin-dark _ relative text-center font-weight-700 no-backface  letter-spacing-2 inline">
+									<span class="mk-button--text">
+Call Us
+</span>
+					</a>
+
+	
+</div>
+</div></div></div>		
+</div></div>
+</div>
+            <div class="clearboth"></div>
+        </div>
+
+
+            
+            
+            
+
+        <div class="clearboth"></div>
+    </div>
+</div>
+<div class="vc_row-full-width vc_clearfix"></div>
+
+<style id="mk-shortcode-style-19" type="text/css">.full-width-19 { min-height:0px; margin-bottom:0px; } .full-width-19 .page-section-content { padding:0px 0 0px; } #background-layer--19 { ; background-position:center center; background-repeat:repeat; ; } #background-layer--19 .mk-color-layer { ; width:100%; height:100%; position:absolute; top:0; left:0; }</style>
+<div class="mk-page-section-wrapper" data-mk-full-width="true" data-mk-full-width-init="true" data-mk-stretch-content="true">
+    <div id="page-section-22"class="mk-page-section self-hosted   full_layout full-width-22 js-el js-master-row    "    data-intro-effect="false">
+
+
+            
+            <div class="mk-page-section-inner">
+                
+
+
+<div class="mk-video-color-mask"></div>
+
+                
+                            </div>
+
+            
+        <div class="page-section-content vc_row-fluid mk-grid " >
+            <div class="mk-padding-wrapper wpb_row"><style id="mk-shortcode-style-23" type="text/css">. { }</style>
+<div class="vc_col-sm-12 wpb_column column_container   _ height-full">
+	<div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text" ><span class="vc_sep_holder vc_sep_holder_l"><span  class="vc_sep_line"></span></span><h4>News</h4><span class="vc_sep_holder vc_sep_holder_r"><span  class="vc_sep_line"></span></span>
+</div>
+<section id="mk-news-section-24" data-query="eyJwb3N0X3R5cGUiOiJuZXdzIiwiY291bnQiOiIzIiwib2Zmc2V0IjowLCJjYXRlZ29yaWVzIjoiIiwiYXV0aG9yIjoiIiwicG9zdHMiOiIiLCJvcmRlcmJ5IjoiZGF0ZSIsIm9yZGVyIjoiREVTQyJ9" data-loop-atts="eyJzaG9ydGNvZGVfbmFtZSI6Im1rX25ld3MiLCJzdHlsZSI6ImRlZmF1bHQiLCJsYXlvdXQiOiJmdWxsIiwiaW1hZ2VfaGVpZ2h0IjoyNTB9" data-pagination-style="2" data-max-pages="1" data-loop-iterator="3" class="mk-news-container js-loop clearfix  ">
+    
+<article id="6838" class="mk-news-item news-full-with-image"><div class="item-holder" style="height:252px">
+
+
+    <img alt="CMAS 1* Instructor Course Held in November 2015 at Dive Hub" 
+    	 title="CMAS 1* Instructor Course Held in November 2015 at Dive Hub" 
+    	 width="1085" 
+    	 height="250" 
+    	 src="http://dive-hub.com/wp-content/uploads/bfi_thumb/dummy-transparent-njtxnbd9v6nszzk2cw4qlvgftf3t0ppa6lmq1f3oqs.png" 
+    	 data-mk-image-src-set='{"default":"https://dive-hub.com/wp-content/uploads/2015/12/IMG_8533-copy.jpg","2x":"https://dive-hub.com/wp-content/uploads/2015/12/IMG_8533-copy.jpg","mobile":"https://dive-hub.com/wp-content/uploads/2015/12/IMG_8533-copy.jpg","responsive":"true"}' 
+    	 itemprop="image" />
+
+<time class="news-date" datetime="2015-12-12">Saturday December 12th, 2015</time>
+<div class="news-meta-wrapper">
+	<div class="news-categories"><span><a href="https://dive-hub.com/en/news_category/celebrations/">Celebrations</a> <a href="https://dive-hub.com/en/news_category/course/">Course</a> <a href="https://dive-hub.com/en/news_category/etkinlik/">Etkinlik</a> <a href="https://dive-hub.com/en/news_category/events/">Events</a> <a href="https://dive-hub.com/en/news_category/kurs/">Kurs</a> <a href="https://dive-hub.com/en/news_category/kutlama/">Kutlama</a></span></div>	<div class="clearboth"></div>
+	<div class="news-the-title"><span><a href="https://dive-hub.com/en/news-posts/cmas-1-instructor-course-held-in-november-2015-at-dive-hub/">CMAS 1* Instructor Course Held in November 2015 at Dive Hub</a></span></div></div>
+</div></article>
+
+</section>
+
+<input type="hidden" id="safe_load_more" name="safe_load_more" value="71da3b80d6" /><input type="hidden" name="_wp_http_referer" value="/en/" />
+
+<div class="wpb_row vc_inner vc_row vc_row-fluid    attched-false   ">
+		
+		<div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+</div></div></div>		
+</div></div>
+</div>
+            <div class="clearboth"></div>
+        </div>
+
+
+            
+            
+            
+
+        <div class="clearboth"></div>
+    </div>
+</div>
+<div class="vc_row-full-width vc_clearfix"></div>
+
+<style id="mk-shortcode-style-22" type="text/css">.full-width-22 { min-height:100px; margin-bottom:0px; } .full-width-22 .page-section-content { padding:40px 0 10px; } #background-layer--22 { ; background-position:left top; background-repeat:repeat; ; } #background-layer--22 .mk-color-layer { ; width:100%; height:100%; position:absolute; top:0; left:0; }</style>
+<div class="mk-page-section-wrapper" data-mk-full-width="true" data-mk-full-width-init="true" data-mk-stretch-content="true">
+    <div id="page-section-25"class="mk-page-section self-hosted   full_layout full-width-25 js-el js-master-row    "    data-intro-effect="false">
+
+
+            
+            <div class="mk-page-section-inner">
+                
+
+
+<div class="mk-video-color-mask"></div>
+
+                
+                            </div>
+
+            
+        <div class="page-section-content vc_row-fluid mk-grid " >
+            <div class="mk-padding-wrapper wpb_row"><style id="mk-shortcode-style-26" type="text/css">. { }</style>
+<div class="vc_col-sm-12 wpb_column column_container   _ height-full">
+	<div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text" ><span class="vc_sep_holder vc_sep_holder_l"><span  class="vc_sep_line"></span></span><h4>Blog</h4><span class="vc_sep_holder vc_sep_holder_r"><span  class="vc_sep_line"></span></span>
+</div><!-- vc_grid start -->
+<div class="vc_grid-container-wrapper vc_clearfix" >
+	<div class="vc_grid-container vc_clearfix wpb_content_element vc_masonry_grid" data-initial-loading-animation="zoomIn" data-vc-grid-settings="{&quot;page_id&quot;:66,&quot;style&quot;:&quot;all-masonry&quot;,&quot;action&quot;:&quot;vc_get_vc_grid_data&quot;,&quot;shortcode_id&quot;:&quot;1678284994957-94209761-3dcb-7&quot;,&quot;tag&quot;:&quot;vc_masonry_grid&quot;}" data-vc-request="https://dive-hub.com/wp-admin/admin-ajax.php" data-vc-post-id="66" data-vc-public-nonce="649cb9d7b7">
+	</div>
+</div><!-- vc_grid end -->
+</div>
+</div>
+            <div class="clearboth"></div>
+        </div>
+
+
+            
+            
+            
+
+        <div class="clearboth"></div>
+    </div>
+</div>
+<div class="vc_row-full-width vc_clearfix"></div>
+
+<style id="mk-shortcode-style-25" type="text/css">.full-width-25 { min-height:100px; margin-bottom:0px; } .full-width-25 .page-section-content { padding:40px 0 10px; } #background-layer--25 { ; background-position:left top; background-repeat:repeat; ; } #background-layer--25 .mk-color-layer { ; width:100%; height:100%; position:absolute; top:0; left:0; }</style>
+<div class="mk-page-section-wrapper" data-mk-full-width="true" data-mk-full-width-init="true" data-mk-stretch-content="true">
+    <div id="page-section-27"class="mk-page-section self-hosted   full_layout full-width-27 js-el js-master-row    "    data-intro-effect="false">
+
+
+            
+            <div class="mk-page-section-inner">
+                
+
+
+<div class="mk-video-color-mask"></div>
+
+                
+                            </div>
+
+            
+        <div class="page-section-content vc_row-fluid mk-grid " >
+            <div class="mk-padding-wrapper wpb_row"><style id="mk-shortcode-style-28" type="text/css">. { }</style>
+<div class="vc_col-sm-12 wpb_column column_container   _ height-full">
+	
+
+<div class="wpb_row vc_inner vc_row vc_row-fluid    attched-false   ">
+		
+		<div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
+<div class="mk-faq-wrapper  " id="faq-list-29">
+
+    
+<header class="filter-faq fancy-style">
+      <ul>
+          
+              <li><a class="current" data-filter="" href="#">All</a></li>
+          
+                    <div class="clearboth"></div>
+      </ul>
+</header>
+
+    <section class="mk-faq-container fancy-style-wrapper" >
+                    <div class="mk-toggle fancy-style mk-faq-toggle ">
+                <div class="mk-toggle-title">
+	<i><svg  class="mk-svg-icon" data-name="mk-icon-question" data-cacheid="icon-6adf460a0693b" style=" height:16px; width: 9.1428571428571px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M704 1256v240q0 16-12 28t-28 12h-240q-16 0-28-12t-12-28v-240q0-16 12-28t28-12h240q16 0 28 12t12 28zm316-600q0 54-15.5 101t-35 76.5-55 59.5-57.5 43.5-61 35.5q-41 23-68.5 65t-27.5 67q0 17-12 32.5t-28 15.5h-240q-15 0-25.5-18.5t-10.5-37.5v-45q0-83 65-156.5t143-108.5q59-27 84-56t25-76q0-42-46.5-74t-107.5-32q-65 0-108 29-35 25-107 115-13 16-31 16-12 0-25-8l-164-125q-13-10-15.5-25t5.5-28q160-266 464-266 80 0 161 31t146 83 106 127.5 41 158.5z"/></svg></i>
+	<span>What kind of diving experience should I expect from Northern Cyprus?</span>
+	<svg  class="mk-svg-icon" data-name="mk-icon-chevron-right" data-cacheid="icon-6adf460a06e14" style=" height:13px; width: 9.2857142857143px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1792"><path d="M1107 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45l166-166q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z"/></svg>	<div class="clearboth"></div>
+</div>                <div class="mk-toggle-pane"><p>Northern Cyprus is known for its unspoiled natural beauties and welcoming culture. So you and your friends and family, even though there are non-divers among, you will definitely find assets to enjoy. Underwater of northern Cyprus’ especially Bogazi (Trikomo, Iskele) has natural, untouched and unspoiled dive sites full of natural beauties and historical artefacts from ancient times. Explore Cyprus through Bogazi waters. <a href="http://dive-hub.com/galeries/">Galeries</a></p>
+</div>            </div>
+                    <div class="mk-toggle fancy-style mk-faq-toggle ">
+                <div class="mk-toggle-title">
+	<i><svg  class="mk-svg-icon" data-name="mk-icon-question" data-cacheid="icon-6adf460a07683" style=" height:16px; width: 9.1428571428571px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M704 1256v240q0 16-12 28t-28 12h-240q-16 0-28-12t-12-28v-240q0-16 12-28t28-12h240q16 0 28 12t12 28zm316-600q0 54-15.5 101t-35 76.5-55 59.5-57.5 43.5-61 35.5q-41 23-68.5 65t-27.5 67q0 17-12 32.5t-28 15.5h-240q-15 0-25.5-18.5t-10.5-37.5v-45q0-83 65-156.5t143-108.5q59-27 84-56t25-76q0-42-46.5-74t-107.5-32q-65 0-108 29-35 25-107 115-13 16-31 16-12 0-25-8l-164-125q-13-10-15.5-25t5.5-28q160-266 464-266 80 0 161 31t146 83 106 127.5 41 158.5z"/></svg></i>
+	<span>If I come to Dive Hub for a dive, can I find a car park? Where can I eat lunch? Are there showers on your premises?</span>
+	<svg  class="mk-svg-icon" data-name="mk-icon-chevron-right" data-cacheid="icon-6adf460a0789a" style=" height:13px; width: 9.2857142857143px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1792"><path d="M1107 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45l166-166q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z"/></svg>	<div class="clearboth"></div>
+</div>                <div class="mk-toggle-pane"><p>Yes, we have a car park where you can park your car. We have a kitchenette at Dive Hub, where you can make your tea or coffee. There is a microwave owen which you can use and a refrigerator for your drinks. We can also help you order food from the take away restaurants that are located not far from Dive Hub. Also, there are showers you can use right after a dive.</p>
+</div>            </div>
+                    <div class="mk-toggle fancy-style mk-faq-toggle ">
+                <div class="mk-toggle-title">
+	<i><svg  class="mk-svg-icon" data-name="mk-icon-question" data-cacheid="icon-6adf460a07c99" style=" height:16px; width: 9.1428571428571px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M704 1256v240q0 16-12 28t-28 12h-240q-16 0-28-12t-12-28v-240q0-16 12-28t28-12h240q16 0 28 12t12 28zm316-600q0 54-15.5 101t-35 76.5-55 59.5-57.5 43.5-61 35.5q-41 23-68.5 65t-27.5 67q0 17-12 32.5t-28 15.5h-240q-15 0-25.5-18.5t-10.5-37.5v-45q0-83 65-156.5t143-108.5q59-27 84-56t25-76q0-42-46.5-74t-107.5-32q-65 0-108 29-35 25-107 115-13 16-31 16-12 0-25-8l-164-125q-13-10-15.5-25t5.5-28q160-266 464-266 80 0 161 31t146 83 106 127.5 41 158.5z"/></svg></i>
+	<span>I want to try SCUBA diving but know very little about it. Equipment considers me most; is SCUBA diving equipment safe to use?</span>
+	<svg  class="mk-svg-icon" data-name="mk-icon-chevron-right" data-cacheid="icon-6adf460a07ecf" style=" height:13px; width: 9.2857142857143px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1792"><path d="M1107 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45l166-166q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z"/></svg>	<div class="clearboth"></div>
+</div>                <div class="mk-toggle-pane"><p>Yes SCUBA diving equipment is safe to use. All the equipment in Dive Hub are periodically serviced and tested to ensure safe diving.</p>
+</div>            </div>
+                    <div class="mk-toggle fancy-style mk-faq-toggle ">
+                <div class="mk-toggle-title">
+	<i><svg  class="mk-svg-icon" data-name="mk-icon-question" data-cacheid="icon-6adf460a08223" style=" height:16px; width: 9.1428571428571px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M704 1256v240q0 16-12 28t-28 12h-240q-16 0-28-12t-12-28v-240q0-16 12-28t28-12h240q16 0 28 12t12 28zm316-600q0 54-15.5 101t-35 76.5-55 59.5-57.5 43.5-61 35.5q-41 23-68.5 65t-27.5 67q0 17-12 32.5t-28 15.5h-240q-15 0-25.5-18.5t-10.5-37.5v-45q0-83 65-156.5t143-108.5q59-27 84-56t25-76q0-42-46.5-74t-107.5-32q-65 0-108 29-35 25-107 115-13 16-31 16-12 0-25-8l-164-125q-13-10-15.5-25t5.5-28q160-266 464-266 80 0 161 31t146 83 106 127.5 41 158.5z"/></svg></i>
+	<span>Is diving safe?</span>
+	<svg  class="mk-svg-icon" data-name="mk-icon-chevron-right" data-cacheid="icon-6adf460a084a6" style=" height:13px; width: 9.2857142857143px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1792"><path d="M1107 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45l166-166q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z"/></svg>	<div class="clearboth"></div>
+</div>                <div class="mk-toggle-pane"><p>Yes diving is safe. Anyone can dive starting from the minimum age of 8, as long as there is no restricting health problem. Diving is a disciplinary activity where some safety rules apply. If you are ready to enjoy a new world, the underwater world, in exchange to a drunken night in pub, and are ready to apply all the safety rules taught you during your SCUBA course, you can consider diving as one of the safest activity.</p>
+</div>            </div>
+                    <div class="mk-toggle fancy-style mk-faq-toggle ">
+                <div class="mk-toggle-title">
+	<i><svg  class="mk-svg-icon" data-name="mk-icon-question" data-cacheid="icon-6adf460a087d5" style=" height:16px; width: 9.1428571428571px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1792"><path d="M704 1256v240q0 16-12 28t-28 12h-240q-16 0-28-12t-12-28v-240q0-16 12-28t28-12h240q16 0 28 12t12 28zm316-600q0 54-15.5 101t-35 76.5-55 59.5-57.5 43.5-61 35.5q-41 23-68.5 65t-27.5 67q0 17-12 32.5t-28 15.5h-240q-15 0-25.5-18.5t-10.5-37.5v-45q0-83 65-156.5t143-108.5q59-27 84-56t25-76q0-42-46.5-74t-107.5-32q-65 0-108 29-35 25-107 115-13 16-31 16-12 0-25-8l-164-125q-13-10-15.5-25t5.5-28q160-266 464-266 80 0 161 31t146 83 106 127.5 41 158.5z"/></svg></i>
+	<span>I have no experience or knowledge about diving, can I still come and dive?</span>
+	<svg  class="mk-svg-icon" data-name="mk-icon-chevron-right" data-cacheid="icon-6adf460a08988" style=" height:13px; width: 9.2857142857143px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1792"><path d="M1107 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45l166-166q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z"/></svg>	<div class="clearboth"></div>
+</div>                <div class="mk-toggle-pane"><p>Off course, this is what Discover Scuba Diving Experience program is for. We are here to help you experience SCUBA diving in the most comfortable and safest way.</p>
+</div>            </div>
+                <div class="clearboth"></div>
+    </section>
+    <div class="clearboth"></div>
+
+</div>
+
+</div></div></div>		
+</div></div>
+</div>
+            <div class="clearboth"></div>
+        </div>
+
+
+            
+            
+            
+
+        <div class="clearboth"></div>
+    </div>
+</div>
+<div class="vc_row-full-width vc_clearfix"></div>
+
+<style id="mk-shortcode-style-27" type="text/css">.full-width-27 { min-height:100px; margin-bottom:0px; } .full-width-27 .page-section-content { padding:10px 0 10px; } #background-layer--27 { ; background-position:left top; background-repeat:repeat; ; } #background-layer--27 .mk-color-layer { ; width:100%; height:100%; position:absolute; top:0; left:0; }</style>
+<div class="mk-page-section-wrapper" data-mk-full-width="true" data-mk-full-width-init="true" data-mk-stretch-content="true">
+    <div id="page-section-30"class="mk-page-section self-hosted   full_layout full-width-30 js-el js-master-row    "    data-intro-effect="false">
+
+
+            
+            <div class="mk-page-section-inner">
+                
+
+
+<div class="mk-video-color-mask"></div>
+
+                
+                            </div>
+
+            
+        <div class="page-section-content vc_row-fluid mk-grid " >
+            <div class="mk-padding-wrapper wpb_row"><style id="mk-shortcode-style-31" type="text/css">. { }</style>
+<div class="vc_col-sm-12 wpb_column column_container   _ height-full">
+	
+<div class="mk-testimonial mk-script-call mk-flexslider js-flexslider modern-style dark-version   clearfix" id="testimonial_32" data-isCarousel="false" data-animation="fade" data-easing="swing" data-direction="horizontal" data-smoothHeight="false" data-pauseOnHover="true" data-animationSpeed="500" data-slideshowSpeed="7000" data-controlNav="true" data-directionNav="false">
+		<ul class="mk-flex-slides">
+		<li class=" testimonial-item">
+	<div class="mk-testimonial-content">
+		<p class="mk-testimonial-quote">Very good dive school. We had a lot of fun to do the dicover scuba dive.
+Thanks!</p>
+<div class="mk-testimonial-image">
+	<img width="50" height="50" src="https://dive-hub.com/wp-content/uploads/2015/10/11223343_1020212771351749_8962361810347714404_o-150x150.jpg" alt="Yvonne Dück" />
+</div>
+<span class="mk-testimonial-author">Yvonne Dück</span>		<div class="clearboth"></div>
+	</div>
+</li><li class=" testimonial-item">
+	<div class="mk-testimonial-content">
+		<p class="mk-testimonial-quote">Ozenli, gercek profesyonel ve denize asik... Bir dalis merkezinden daha ne beklenebilir ki! Iyi ki varsiniz;)</p>
+<div class="mk-testimonial-image">
+	<img width="50" height="50" src="https://dive-hub.com/wp-content/uploads/2015/10/11895983_10153233370193992_4996203837772577037_n-150x150.jpg" alt="Münise Alibeyoğlu" />
+</div>
+<span class="mk-testimonial-author">Münise Alibeyoğlu</span>		<div class="clearboth"></div>
+	</div>
+</li><li class=" testimonial-item">
+	<div class="mk-testimonial-content">
+		<p class="mk-testimonial-quote">Mükemmel insanlar ciddi takım calısması ilgi alaka....</p>
+<div class="mk-testimonial-image">
+	<img width="50" height="50" src="https://dive-hub.com/wp-content/uploads/2015/10/11025244_10153716391939782_30331148494937389_o-150x150.jpg" alt="Mehmet Kızar" />
+</div>
+<span class="mk-testimonial-author">Mehmet Kızar</span>		<div class="clearboth"></div>
+	</div>
+</li><li class=" testimonial-item">
+	<div class="mk-testimonial-content">
+		<p class="mk-testimonial-quote">There is not much to compare with breathing under water. Absolutely a facinating experince with a great <span class="entity tip_taste_match">staff</span> at Iskele Dive Hub.</p>
+<div class="mk-testimonial-image">
+	<img width="50" height="50" src="https://dive-hub.com/wp-content/uploads/2016/02/ceren-bogac-150x150.jpg" alt="Ceren Boğaç" />
+</div>
+<span class="mk-testimonial-author">Ceren Boğaç</span>		<div class="clearboth"></div>
+	</div>
+</li><li class=" testimonial-item">
+	<div class="mk-testimonial-content">
+		<p class="mk-testimonial-quote">Çok ilgililer, çok güzeldi.</p>
+<div class="mk-testimonial-image">
+	<img width="50" height="50" src="https://dive-hub.com/wp-content/uploads/2016/02/Mustafa-Yılmaz-150x150.jpg" alt="Mustafa Yılmaz" />
+</div>
+<span class="mk-testimonial-author">Mustafa Yılmaz</span>		<div class="clearboth"></div>
+	</div>
+</li><li class=" testimonial-item">
+	<div class="mk-testimonial-content">
+		<p class="mk-testimonial-quote">Samimi bir ortamda keşif dolu bir gün.</p>
+<div class="mk-testimonial-image">
+	<img width="50" height="50" src="https://dive-hub.com/wp-content/uploads/2016/02/Neslihan-Tosun-150x150.jpg" alt="Neslihan Tosun" />
+</div>
+<span class="mk-testimonial-author">Neslihan Tosun</span>		<div class="clearboth"></div>
+	</div>
+</li><li class=" testimonial-item">
+	<div class="mk-testimonial-content">
+		<p class="mk-testimonial-quote">Kıbrıs'ın en iyi dalış merkezi. Eğitmenler çok ilgili ve ekipmanları güzeldir.</p>
+<div class="mk-testimonial-image">
+	<img width="50" height="50" src="https://dive-hub.com/wp-content/uploads/2016/02/Rahmi-Büyükvural-150x150.jpg" alt="Rahmi Büyükvural" />
+</div>
+<span class="mk-testimonial-author">Rahmi Büyükvural</span>		<div class="clearboth"></div>
+	</div>
+</li><li class=" testimonial-item">
+	<div class="mk-testimonial-content">
+		<p class="mk-testimonial-quote">Birebir ilgilenmeleri, güleryüzleri insanı rahatlatıyor. <span class="entity tip_taste_match">Dalış</span> hakkındaki tüm önyargılarımı yok ettiler. Çok keyifliydi. Kıbrıs'a gelip uğramazsanız hata edersiniz.</p>
+<div class="mk-testimonial-image">
+	<img width="50" height="50" src="https://dive-hub.com/wp-content/uploads/2016/02/Osman-Yıldız-150x150.jpg" alt="Osman Yıldız" />
+</div>
+<span class="mk-testimonial-author">Osman Yıldız</span>		<div class="clearboth"></div>
+	</div>
+</li>	</ul>
+	<div class="clearboth"></div>
+</div><style id="mk-shortcode-style-32" type="text/css">#testimonial_32 .mk-testimonial-quote, #testimonial_32 .mk-testimonial-quote p { color:#777777; } #testimonial_32 .mk-testimonial-quote { font-size:18px; font-style:italic; font-weight:bold; letter-spacing:0px; text-transform:initial; } #testimonial_32 .mk-testimonial-quote * { font-style:italic !important; font-weight:bold !important; } #testimonial_32 .mk-testimonial-author { color:#444444; } #testimonial_32 .mk-testimonial-company{ color:#777777; }</style></div>
+</div>
+            <div class="clearboth"></div>
+        </div>
+
+
+            
+            
+            
+
+        <div class="clearboth"></div>
+    </div>
+</div>
+<div class="vc_row-full-width vc_clearfix"></div>
+
+<style id="mk-shortcode-style-30" type="text/css">.full-width-30 { min-height:100px; margin-bottom:0px; } .full-width-30 .page-section-content { padding:10px 0 10px; } #background-layer--30 { ; background-position:left top; background-repeat:repeat; ; } #background-layer--30 .mk-color-layer { ; width:100%; height:100%; position:absolute; top:0; left:0; }</style>
+		<div class="clearboth"></div>
+									<div class="clearboth"></div>
+											</div>
+										<div class="clearboth"></div>
+				</div>
+			</div>
+					</div>
+
+
+<section id="mk-footer-unfold-spacer"></section>
+
+<section id="mk-footer" class="" role="contentinfo" itemscope="itemscope" itemtype="https://schema.org/WPFooter" >
+		<div class="footer-wrapper mk-grid">
+		<div class="mk-padding-wrapper">
+				<div class="mk-col-1-3"></div>
+	<div class="mk-col-2-3">
+	    <div class="mk-col-1-3"></div>
+	    <div class="mk-col-1-3"></div>
+	    <div class="mk-col-1-3"></div>
+	</div>
+				<div class="clearboth"></div>
+		</div>
+	</div>
+		
+<div id="sub-footer">
+	<div class=" mk-grid">
+		
+		<span class="mk-footer-copyright"> All Rights Reserved - 2015 ©</span>
+			</div>
+	<div class="clearboth"></div>
+</div>
+</section>
+</div>
+</div>
+
+<div class="bottom-corner-btns js-bottom-corner-btns">
+
+<a href="#top-of-page" class="mk-go-top  js-smooth-scroll js-bottom-corner-btn js-bottom-corner-btn--back">
+	<svg  class="mk-svg-icon" data-name="mk-icon-chevron-up" data-cacheid="icon-6adf460a113fc" style=" height:16px; width: 16px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792"><path d="M1683 1331l-166 165q-19 19-45 19t-45-19l-531-531-531 531q-19 19-45 19t-45-19l-166-165q-19-19-19-45.5t19-45.5l742-741q19-19 45-19t45 19l742 741q19 19 19 45.5t-19 45.5z"/></svg></a>
+	<div class="mk-quick-contact-wrapper  js-bottom-corner-btn js-bottom-corner-btn--contact">
+			
+		<a href="#" class="mk-quick-contact-link"><svg  class="mk-svg-icon" data-name="mk-icon-envelope" data-cacheid="icon-6adf460a115c9" style=" height:20px; width: 20px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></a>
+		<div id="mk-quick-contact">
+			<div class="mk-quick-contact-title">Contact Us</div>
+			<p>We're not around right now. But you can send us an email and we'll get back to you, asap.</p>
+			<form class="mk-contact-form" method="post" novalidate="novalidate">
+				<input type="text" placeholder="Name*" required="required" id="name" name="name" class="text-input" value="" tabindex="525" />
+				<input type="email" data-type="email" required="required" placeholder="Email*" id="email" name="email" class="text-input" value="" tabindex="526"  />
+				<textarea placeholder="Message*" required="required" id="content" name="content" class="textarea" tabindex="527"></textarea>
+				
+				<div class="btn-cont">
+                    <button tabindex="528" class="mk-progress-button mk-contact-button accent-bg-color button" data-style="move-up">
+                        <span class="mk-progress-button-content">Send</span>
+                        <span class="mk-progress">
+                            <span class="mk-progress-inner"></span>
+                        </span>
+                        <span class="state-success"><svg  class="mk-svg-icon" data-name="mk-moon-checkmark" data-cacheid="icon-6adf460a118f8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M432 64l-240 240-112-112-80 80 192 192 320-320z"/></svg></span>
+                        <span class="state-error"><svg  class="mk-svg-icon" data-name="mk-moon-close" data-cacheid="icon-6adf460a11b7a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M507.331 411.33l-.006-.005-155.322-155.325 155.322-155.325.006-.005c1.672-1.673 2.881-3.627 3.656-5.708 2.123-5.688.912-12.341-3.662-16.915l-73.373-73.373c-4.574-4.573-11.225-5.783-16.914-3.66-2.08.775-4.035 1.984-5.709 3.655l-.004.005-155.324 155.326-155.324-155.325-.005-.005c-1.673-1.671-3.627-2.88-5.707-3.655-5.69-2.124-12.341-.913-16.915 3.66l-73.374 73.374c-4.574 4.574-5.784 11.226-3.661 16.914.776 2.08 1.985 4.036 3.656 5.708l.005.005 155.325 155.324-155.325 155.326-.004.005c-1.671 1.673-2.88 3.627-3.657 5.707-2.124 5.688-.913 12.341 3.661 16.915l73.374 73.373c4.575 4.574 11.226 5.784 16.915 3.661 2.08-.776 4.035-1.985 5.708-3.656l.005-.005 155.324-155.325 155.324 155.325.006.004c1.674 1.672 3.627 2.881 5.707 3.657 5.689 2.123 12.342.913 16.914-3.661l73.373-73.374c4.574-4.574 5.785-11.227 3.662-16.915-.776-2.08-1.985-4.034-3.657-5.707z"/></svg></span>
+                    </button>
+                </div>
+				<input type="hidden" id="security" name="security" value="ee8724dcc7" /><input type="hidden" name="_wp_http_referer" value="/en/" />				<input type="hidden" id="sh_id" name="sh_id" value="15"><input type="hidden" id="p_id" name="p_id" value="2342">				<div class="contact-form-message clearfix"></div>  
+			</form>
+			<div class="bottom-arrow"></div>
+		</div>
+	</div>		<div class="add-cart-responsive-state">
+			<a class="mk-shoping-cart-link" href="https://dive-hub.com/en/cart/">
+				<svg  class="mk-svg-icon" data-name="mk-moon-cart-2" data-cacheid="icon-6adf460a11ebb" style=" height:16px; width: 16px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M423.609 288c17.6 0 35.956-13.846 40.791-30.769l46.418-162.463c4.835-16.922-5.609-30.768-23.209-30.768h-327.609c0-35.346-28.654-64-64-64h-96v64h96v272c0 26.51 21.49 48 48 48h304c17.673 0 32-14.327 32-32s-14.327-32-32-32h-288v-32h263.609zm-263.609-160h289.403l-27.429 96h-261.974v-96zm32 344c0 22-18 40-40 40h-16c-22 0-40-18-40-40v-16c0-22 18-40 40-40h16c22 0 40 18 40 40v16zm288 0c0 22-18 40-40 40h-16c-22 0-40-18-40-40v-16c0-22 18-40 40-40h16c22 0 40 18 40 40v16z"/></svg>				<span class="mk-header-cart-count">0</span>
+			</a>
+		</div>
+		</div>
+
+
+
+
+	<style type='text/css'></style><script type="text/javascript">
+    php = {
+        hasAdminbar: false,
+        json: (null != null) ? null : "",
+        jsPath: 'https://dive-hub.com/wp-content/themes/jupiter/assets/js'
+      };
+    </script><link rel='stylesheet' id='prettyphoto-css'  href='https://dive-hub.com/wp-content/plugins/js_composer_theme/assets/lib/prettyphoto/css/prettyPhoto.min.css?ver=5.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='vc_pageable_owl-carousel-css-css'  href='https://dive-hub.com/wp-content/plugins/js_composer_theme/assets/lib/owl-carousel2-dist/assets/owl.min.css?ver=5.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css-css'  href='https://dive-hub.com/wp-content/plugins/js_composer_theme/assets/lib/bower/animate-css/animate.min.css?ver=5.4.5' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var themeMyLogin = {"action":"","errors":[]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/plugins/theme-my-login/assets/scripts/theme-my-login.min.js?ver=7.0.13'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"https:\/\/dive-hub.com\/en\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.2.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"https:\/\/dive-hub.com\/en\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments_e54e34ad44d73272f5385fb8a4f470cb"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.2.6'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-includes/js/comment-reply.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/themes/jupiter/assets/js/min/full-scripts.6.0.2.js?ver=1514989387'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/themes/jupiter/header-builder/includes/assets/js/mkhb-render.js?ver=6.0.2'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-includes/js/wp-embed.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/plugins/js_composer_theme/assets/js/dist/js_composer_front.min.js?ver=5.4.5'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/plugins/js_composer_theme/assets/lib/prettyphoto/js/jquery.prettyPhoto.min.js?ver=5.4.5'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/plugins/js_composer_theme/assets/lib/bower/masonry/dist/masonry.pkgd.min.js?ver=5.4.5'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/plugins/js_composer_theme/assets/lib/owl-carousel2-dist/owl.carousel.min.js?ver=5.4.5'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/plugins/js_composer_theme/assets/lib/bower/imagesloaded/imagesloaded.pkgd.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/plugins/js_composer_theme/assets/lib/waypoints/waypoints.min.js?ver=5.4.5'></script>
+<script type='text/javascript' src='https://dive-hub.com/wp-content/plugins/js_composer_theme/assets/js/dist/vc_grid.min.js?ver=5.4.5'></script>
+		<script type="text/javascript">
+		var ga_fired = false;
+		window.addEventListener("scroll", function(){
+			if ((document.documentElement.scrollTop != 0 && ga_fired === false) || (document.body.scrollTop != 0 && ga_fired === false)) {
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+				ga('create', 'UA-65795075-1', 'auto');
+				ga('send', 'pageview');
+				ga_fired = true;
+			}
+		}, true);
+		</script> 
+				<script type="text/javascript">
+				</script>
+	<script type="text/javascript">	window.get = {};	window.get.captcha = function(enteredCaptcha) {
+                  return jQuery.get(ajaxurl, { action : "mk_validate_captcha_input", captcha: enteredCaptcha });
+              	};</script>	
+</body>
+</html>

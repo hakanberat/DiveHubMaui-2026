@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:m="clr-namespace:DiveHubMauiApp.Models" x:Class="DiveHubMauiApp.Components.ContentCard" x:DataType="m:ContentEntry">
+ <Border Style="{StaticResource Card}" Margin="0,0,0,16">
+  <Grid RowDefinitions="190,Auto">
+   <Image Source="{Binding Image}" Aspect="AspectFill" SemanticProperties.Description="{Binding Name}"/>
+   <VerticalStackLayout Grid.Row="1" Padding="20" Spacing="8">
+    <Label Text="{Binding Eyebrow}" Style="{StaticResource Eyebrow}"/>
+    <Label Text="{Binding Name}" FontFamily="OpenSansSemibold" FontSize="21"/>
+    <Label Text="{Binding Summary}" Style="{StaticResource Body}" MaxLines="3" LineBreakMode="TailTruncation"/>
+    <Button Text="Explore  →" Style="{StaticResource LinkButton}" HorizontalOptions="Start" Clicked="ExploreClicked" SemanticProperties.Description="{Binding Name, StringFormat='Explore {0}'}"/>
+   </VerticalStackLayout>
+  </Grid>
+ </Border>
+</ContentView>

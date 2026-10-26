@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="Dive Hub Iskele team organizes dives at different dive sites with different levels, for every diver with different experience and skills." />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="Whether you are trying scuba diving for the first time, or you are already a skilled and experienced diver with various depth experiences and skills, you can chose to dive at one of our dive sites that favours you most." />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="At every dive site all with different auras you will experience something different and something new as the Northern Cyprus coasts are still untouched and not interfered by humans. Let us take you to see the natural habitats of different species with Mediterranean fauna and flora." />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="Or are you interested in historical artefacts and underwater objects? As Cyprus has been on the main trade route and also a trade centre of the Mediterranean, you will be able to see a lot of historical, ancient artefacts lying under the water naturally as they once fell of their vessels. Let us take you to to explore the wild and the ancient." />
+        
+    </LinearLayout>
+    
+
+</ScrollView>

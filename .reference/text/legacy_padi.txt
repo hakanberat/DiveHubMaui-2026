@@ -1,0 +1,5 @@
+﻿PADI: Professional Association of Diving Instructors®. The Way the World Learns to Dive®. PADI is the world’s leading scuba diver training organization.
+The PADI System of diver education is based on progressive training that introduces skills, safety-related information and local environmental knowledge to student divers in stages. PADI courses are student-centered and provide maximum practice and realistic application.
+Official website:
+@string/padi
+List of Courses

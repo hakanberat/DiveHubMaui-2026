@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="417dp" >
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageButton1"
+            android:layout_toRightOf="@+id/imageButton4"
+            android:onClick="divesites"
+            android:src="@drawable/divesites" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="infor"
+            android:src="@android:drawable/ic_menu_info_details" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageButton4"
+            android:layout_marginBottom="36dp"
+            android:layout_toLeftOf="@+id/imageButton4"
+            android:onClick="services"
+            android:src="@drawable/services" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageButton6"
+            android:layout_toRightOf="@+id/imageButton4"
+            android:onClick="gallery"
+            android:src="@drawable/gallery" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageButton7"
+            android:layout_centerVertical="true"
+            android:onClick="contact"
+            android:src="@drawable/contact" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageButton6"
+            android:layout_alignTop="@+id/imageButton5"
+            android:onClick="logbook"
+            android:src="@drawable/logbook" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageButton3"
+            android:layout_marginBottom="31dp"
+            android:layout_toLeftOf="@+id/imageButton4"
+            android:onClick="about"
+            android:src="@drawable/about" />
+
+        </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

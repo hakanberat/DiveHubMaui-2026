@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hbd.divehub"
+    android:versionCode="8"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="18" />
+    
+    
+    <supports-screens
+    android:anyDensity="true"
+    android:largeScreens="true"
+    android:normalScreens="true"
+    android:resizeable="true"
+    android:smallScreens="true"
+    android:xlargeScreens="true" />
+    
+    
+      
+    
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:debuggable="false">
+        <activity
+            android:name="com.hbd.divehub.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+          <activity
+            android:name="com.hbd.divehub.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                  <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        <activity android:name=".Menupage" android:label="Welcome!"></activity>
+        <activity android:name=".About" android:parentActivityName="Menupage" android:label="About Dive Hub">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Menupage" />
+		</activity>
+		<activity android:name=".Team" android:parentActivityName="About" android:label="Dive Hub Team">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".About" />
+		</activity>
+		<activity android:name=".Divesites" android:parentActivityName="Menupage" android:label="Dive Sites">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Menupage" />
+		</activity>
+		<activity android:name=".Galleryy" android:parentActivityName="Menupage" android:label="Photos">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Menupage" />
+		</activity>
+		
+		<activity android:name=".Logbook" android:parentActivityName="Menupage" android:label="Logbook">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Menupage" />
+		</activity>
+		
+		<activity android:name=".Contact" android:parentActivityName="Menupage" android:label="Contact">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Menupage" />
+		</activity>
+		<activity android:name=".Services" android:parentActivityName="Menupage" android:label="Services">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Menupage" />
+		</activity>
+		
+		<activity android:name=".Ayca" android:parentActivityName="Team" android:label="Maria Ayca Ates">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Team" />
+		</activity>
+		
+        <activity android:name=".Divehubshore" android:parentActivityName="Divesites" android:label="Dive Hub Shore">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Divesties" />
+		</activity>
+		<activity android:name=".AmphoraBeach" android:parentActivityName="Divesites" android:label="Amphora Beach">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Divesties" />
+		</activity>
+		<activity android:name=".BogazShipWreck" android:parentActivityName="Divesites" android:label="Bogaz Ship Wreck">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Divesties" />
+		</activity>
+		<activity android:name=".Alp" android:parentActivityName="Divesites" android:label="Alp">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Divesties" />
+		</activity>
+		<activity android:name=".Bedri" android:parentActivityName="Divesites" android:label="Bedri">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Divesties" />
+		</activity>
+		<activity android:name=".Pitos" android:parentActivityName="Divesites" android:label="Pitos">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Divesties" />
+		</activity>
+        <activity android:name=".NoahsArk" android:parentActivityName="Divesites" android:label="Noahs Ark">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Divesties" />
+		</activity>
+		<activity android:name=".RayCave" android:parentActivityName="Divesites" android:label="Ray Cave">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Divesties" />
+		</activity>
+		<activity android:name=".Abdulselam" android:parentActivityName="Divesites" android:label="Abdulselam">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Divesties" />
+		</activity>
+		<activity android:name=".AmphoraWall" android:parentActivityName="Divesites" android:label="Amphora Wall">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Divesties" />
+		</activity>
+        
+		<activity android:name=".Dives" android:parentActivityName="Services" android:label="Dives">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Services" />
+		</activity>
+		<activity android:name=".Courses" android:parentActivityName="Services" android:label="Courses">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Services" />
+		</activity>
+		
+		<activity android:name=".Padi" android:parentActivityName="Courses" android:label="Padi Courses">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Courses" />
+		</activity>
+		<activity android:name=".Cmas" android:parentActivityName="Courses" android:label="Cams Courses">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Courses" />
+		</activity>
+		<activity android:name=".Dan" android:parentActivityName="Courses" android:label="Dan Courses">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Courses" />
+		</activity>
+		
+		<activity android:name=".CmasCourses" android:parentActivityName="Cmas" android:label="CMAS Courses">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Cmas" />
+		</activity>
+		<activity android:name=".Padicourses" android:parentActivityName="Padi" android:label="PADI Courses">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Padi" />
+		</activity>
+		<activity android:name=".Dancourses" android:parentActivityName="Dan" android:label="DAN Courses">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Dan" />
+		</activity>
+		
+		<activity android:name=".Contactform" android:parentActivityName="Contact" android:label="Contact Form">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Contact" />
+		</activity>
+		
+		<activity android:name=".Logbooknew" android:parentActivityName="Logbook" android:label="New Dive">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Logbook" />
+		</activity>
+		
+		
+		<activity android:name=".Logbooklist" android:parentActivityName="Logbook" android:label="List Dives">
+             <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Logbook" />
+		</activity>
+		
+		
+    </application>
+
+</manifest>

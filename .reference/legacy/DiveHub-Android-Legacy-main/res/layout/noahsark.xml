@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+         <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/noahsark" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="This is a very impressive dive site combining excellent diving for the experienced divers, abundant fish life, colourful corals, large sponges and the physical proximity to the historic artefacts in the eastern coast of Northern Cyprus." />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="This is a very impressive dive site combining excellent diving for the experienced divers, abundant fish life, colourful corals, large sponges and the physical proximity to the historic artefacts in the eastern coast of Northern Cyprus." />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="To reach Noah’s Ark, we travel approximately 2 miles towards east by boat from Dive Hub Iskele, and once we reach the dive site we enter the water and descend to 20 metres rocky plateau rock formation. As we descend the 1 metre wall – which rises up to 3 metres as we swim along – we reach the sandy bottom of 27 metres maximum and swim along the wall coming across different species of fish, schools, and sponges, as well as stars." />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="As the name recalls, the dive site has an abundant marine life, where you can swim together with different schools of fish, be followed by big curious groupers and even see 2 moray eels coming out of one hole. There are schools of squirrelfish living in the every step of the wall that we swim along. As the Cyprus coast is also known for its ancient trade route, you will come along the ancient amphora during your dive too." />
+        
+    </LinearLayout>
+    
+
+</ScrollView>
+        

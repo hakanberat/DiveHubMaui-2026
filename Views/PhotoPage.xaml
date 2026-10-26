@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:DiveHubMauiApp.ViewModels" x:Class="DiveHubMauiApp.Views.PhotoPage" x:DataType="vm:PhotoViewModel" BackgroundColor="{StaticResource Navy}" Shell.NavBarIsVisible="False" Shell.TabBarIsVisible="False" Title="Photo viewer">
+ <Grid RowDefinitions="Auto,*,Auto" Padding="20" RowSpacing="16">
+  <Grid ColumnDefinitions="*,Auto"><Label Text="DIVE HUB / PHOTOGRAPHY" TextColor="White" Style="{StaticResource Eyebrow}" VerticalOptions="Center"/><Button Grid.Column="1" Text="Close ×" Clicked="CloseClicked" Style="{StaticResource SecondaryButton}"/></Grid>
+  <Image x:Name="PhotoImage" Grid.Row="1" Source="{Binding Photo.Image}" Aspect="AspectFit" SemanticProperties.Description="{Binding Photo.Caption}"><Image.GestureRecognizers><SwipeGestureRecognizer Direction="Left" Swiped="NextSwiped"/><SwipeGestureRecognizer Direction="Right" Swiped="PreviousSwiped"/></Image.GestureRecognizers></Image>
+  <VerticalStackLayout Grid.Row="2" Spacing="12" MaximumWidthRequest="900" HorizontalOptions="Fill">
+   <Label Text="{Binding Photo.Caption}" TextColor="White" FontSize="18" FontFamily="OpenSansSemibold"/><Label Text="{Binding Photo.Source}" TextColor="#B8CDD9" FontSize="12"/>
+   <Grid ColumnDefinitions="*,Auto,*" ColumnSpacing="14"><Button Text="← Previous" Command="{Binding Previous}" Style="{StaticResource SecondaryButton}"/><Label Grid.Column="1" Text="{Binding Position}" TextColor="White" VerticalOptions="Center"/><Button Grid.Column="2" Text="Next →" Command="{Binding Next}" Style="{StaticResource SecondaryButton}"/></Grid>
+   <Label Text="{Binding Error}" IsVisible="{Binding HasError}" TextColor="#FFB8C3"/>
+  </VerticalStackLayout>
+ </Grid>
+</ContentPage>

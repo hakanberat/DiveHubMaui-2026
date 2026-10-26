@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:DiveHubMauiApp.ViewModels" xmlns:m="clr-namespace:DiveHubMauiApp.Models" xmlns:c="clr-namespace:DiveHubMauiApp.Components" x:Class="DiveHubMauiApp.Views.HomePage" x:DataType="vm:HomeViewModel" Title="Dive Hub">
+ <ScrollView>
+  <VerticalStackLayout x:Name="RootContent" Padding="{OnIdiom Phone='20,18,20,32', Default='36,24,36,40'}" Spacing="24" MaximumWidthRequest="1200" HorizontalOptions="Fill">
+   <Grid ColumnDefinitions="*,Auto">
+    <VerticalStackLayout Spacing="4"><Label Text="DIVE HUB · NORTHERN CYPRUS" Style="{StaticResource Eyebrow}"/><Label Text="Stay curious. Go deeper." FontSize="18" FontFamily="OpenSansSemibold"/></VerticalStackLayout>
+    <Border Grid.Column="1" BackgroundColor="{StaticResource Mist}" StrokeThickness="0" StrokeShape="RoundRectangle 12" Padding="12,7" VerticalOptions="Center"><Label Text="OFFLINE" FontSize="10" CharacterSpacing="1" TextColor="{StaticResource Ocean}"/></Border>
+   </Grid>
+   <Border x:Name="Hero" StrokeThickness="0" StrokeShape="RoundRectangle 28" HeightRequest="{OnIdiom Phone=400, Default=430}" BackgroundColor="{StaticResource Navy}">
+    <Grid>
+     <Image Source="ocean_school.jpg" Aspect="AspectFill" Opacity="0.8" SemanticProperties.Description="Underwater photograph from the Dive Hub archive"/>
+     <BoxView BackgroundColor="#40081F32"/>
+     <VerticalStackLayout Padding="{OnIdiom Phone=26, Default=40}" Spacing="16" VerticalOptions="End" MaximumWidthRequest="650" HorizontalOptions="Start">
+      <Label Text="BELOW THE ORDINARY" TextColor="{StaticResource Turquoise}" Style="{StaticResource Eyebrow}"/>
+      <Label x:Name="HeroTitle" Text="A little wonder.&#10;A whole other world." FontSize="{OnIdiom Phone=34, Default=46}" FontFamily="OpenSansSemibold" TextColor="White" LineHeight="1.05"/>
+      <Label Text="Explore a Mediterranean diving archive.&#10;Keep your own adventures close." TextColor="#E1EFF4" FontSize="15" LineHeight="1.2"/>
+      <Button Text="Explore dive sites  →" Command="{Binding Navigate}" CommandParameter="sites" HorizontalOptions="Start" BackgroundColor="{StaticResource Turquoise}" TextColor="{StaticResource Navy}" Margin="0,4,0,0"/>
+     </VerticalStackLayout>
+    </Grid>
+   </Border>
+   <Label Text="The Dive Hub collection is a historical reference. Current operations and course availability are unverified." Style="{StaticResource Caption}"/>
+   <Label Text="{Binding Error}" IsVisible="{Binding HasError}" Style="{StaticResource Error}"/>
+   <Grid ColumnDefinitions="*,*" ColumnSpacing="12">
+    <Border Style="{StaticResource Card}" Padding="18"><VerticalStackLayout Spacing="8"><Label Text="LEARN &amp; EXPLORE" Style="{StaticResource Eyebrow}"/><Label Text="Your next chapter" FontSize="19" FontFamily="OpenSansSemibold"/><Label Text="PADI · CMAS · DAN · TDI" Style="{StaticResource Caption}"/><Button Text="Courses  →" Style="{StaticResource LinkButton}" Command="{Binding Navigate}" CommandParameter="courses" HorizontalOptions="Start"/></VerticalStackLayout></Border>
+    <Border Grid.Column="1" BackgroundColor="{StaticResource Navy}" StrokeThickness="0" StrokeShape="RoundRectangle 22" Padding="18"><VerticalStackLayout Spacing="8"><Label Text="MAKE IT A MEMORY" Style="{StaticResource Eyebrow}" TextColor="{StaticResource Turquoise}"/><Label Text="Your dive logbook" TextColor="White" FontSize="19" FontFamily="OpenSansSemibold"/><Label Text="Personal. Local. Always with you." TextColor="#B8CDD9" FontSize="12"/><Button Text="Open logbook  →" Style="{StaticResource LinkButton}" TextColor="White" Command="{Binding Navigate}" CommandParameter="logbook" HorizontalOptions="Start"/></VerticalStackLayout></Border>
+   </Grid>
+   <Grid ColumnDefinitions="*,Auto"><VerticalStackLayout Spacing="4"><Label Text="WORTH A CLOSER LOOK" Style="{StaticResource Eyebrow}"/><Label Text="Beneath the blue" Style="{StaticResource SectionTitle}"/></VerticalStackLayout><Button Grid.Column="1" Text="View all →" Style="{StaticResource LinkButton}" Command="{Binding Navigate}" CommandParameter="sites"/></Grid>
+   <FlexLayout x:Name="FeaturedLayout" Direction="Row" Wrap="Wrap" JustifyContent="SpaceBetween" BindableLayout.ItemsSource="{Binding Featured}">
+    <BindableLayout.ItemTemplate><DataTemplate x:DataType="m:ContentEntry"><c:ContentCard Invoked="EntryInvoked" FlexLayout.Basis="{OnIdiom Phone='100%', Default='32%'}"><c:ContentCard.GestureRecognizers><TapGestureRecognizer Tapped="EntryTapped"/></c:ContentCard.GestureRecognizers></c:ContentCard></DataTemplate></BindableLayout.ItemTemplate>
+   </FlexLayout>
+   <VerticalStackLayout Spacing="5"><Label Text="THE EXPERIENCE" Style="{StaticResource Eyebrow}"/><Label Text="More ways to explore" Style="{StaticResource SectionTitle}"/><Label Text="Discover the diving experiences described by the original centre." Style="{StaticResource Body}"/></VerticalStackLayout>
+   <VerticalStackLayout Spacing="10" BindableLayout.ItemsSource="{Binding Services}">
+    <BindableLayout.ItemTemplate><DataTemplate x:DataType="m:ContentEntry"><Border Style="{StaticResource Card}" Padding="16"><Grid ColumnDefinitions="64,*,Auto" ColumnSpacing="16"><Image Source="{Binding Image}" HeightRequest="64" WidthRequest="64" Aspect="AspectFill"/><VerticalStackLayout Grid.Column="1" VerticalOptions="Center" Spacing="4"><Label Text="{Binding Name}" FontFamily="OpenSansSemibold" FontSize="18"/><Label Text="{Binding Summary}" Style="{StaticResource Caption}"/></VerticalStackLayout><Label Grid.Column="2" Text="→" VerticalOptions="Center" TextColor="{StaticResource Ocean}"/></Grid><Border.GestureRecognizers><TapGestureRecognizer Tapped="EntryTapped"/></Border.GestureRecognizers></Border></DataTemplate></BindableLayout.ItemTemplate>
+   </VerticalStackLayout>
+   <Grid ColumnDefinitions="*,Auto"><Label Text="Moments in the blue" Style="{StaticResource SectionTitle}"/><Button Grid.Column="1" Text="Gallery →" Style="{StaticResource LinkButton}" Clicked="GalleryClicked"/></Grid>
+   <FlexLayout Direction="Row" Wrap="Wrap" JustifyContent="SpaceBetween" BindableLayout.ItemsSource="{Binding Photos}">
+    <BindableLayout.ItemTemplate><DataTemplate x:DataType="m:GalleryPhoto"><Border StrokeThickness="0" StrokeShape="RoundRectangle 18" FlexLayout.Basis="32%" HeightRequest="140"><Image Source="{Binding Image}" Aspect="AspectFill" SemanticProperties.Description="{Binding Caption}"/><Border.GestureRecognizers><TapGestureRecognizer Tapped="PhotoTapped"/></Border.GestureRecognizers></Border></DataTemplate></BindableLayout.ItemTemplate>
+   </FlexLayout>
+   <Label Text="Dive Hub, reimagined. Your logbook lives entirely on this device." Style="{StaticResource Caption}" HorizontalTextAlignment="Center"/>
+  </VerticalStackLayout>
+ </ScrollView>
+</ContentPage>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+ <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/shore" />
+</RelativeLayout>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+       		android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="Our shore, located on the eastern shore of Northern Cyprus (Bogazi, Trikomo) ranges from 2, 5 to 8 metres. The dive site is eligible for discovery dives or long photography dives without worrying about the air consumption for experienced divers. The shallow waters of Bogazi transfer the sun rays to the bottom making it easy to capture nice and colourful photograph with different variety of sea species." />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="You will see stripped groupers, parrot fish, priest fish schools gathering around you with curiosity, squirrelfish, scorpion fish, crabs running around, colourful octopuses, and squids as well as the sponges and living rock corals. There is also a high possibility that you come across sea horses during August." />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="This is an excellent dive site for relaxing under the water, experiencing the underwater world for the first time and taking your time for the right capture of the creature you like to photograph." />
+
+    </LinearLayout>
+    
+
+</ScrollView>

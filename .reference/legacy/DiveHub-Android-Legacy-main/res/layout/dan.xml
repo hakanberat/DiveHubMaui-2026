@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+
+	<RelativeLayout
+  				 	 android:layout_width="match_parent"
+   					 android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" 
+            android:src="@drawable/dan" />
+
+        
+
+	</RelativeLayout>
+
+<TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="For scuba divers worldwide, DAN means safety, health and peace of mind. The Divers Alert Network (DAN) is a global network of not-for-profit, member-based, dive safety organizations working to enhance dive safety for all recreational divers." />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+    android:text="DAN was founded in 1980 at Duke University Medical Centre in the United States with a 24-hour Emergency Hotline. This Hotline assisted in the treatment of underwater diving accidents by providing information to injured divers and the medical personnel who cared for them." />
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+    android:text="Official website:" />
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:linksClickable="true"
+    android:text="@string/dan" />
+
+<RelativeLayout
+  				 	 android:layout_width="match_parent"
+   					 android:layout_height="match_parent">
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:onClick="dancourses"
+    android:paddingTop="5dp"
+    android:text="List of Courses" />
+
+</RelativeLayout>
+
+    </LinearLayout>
+    
+
+</ScrollView>

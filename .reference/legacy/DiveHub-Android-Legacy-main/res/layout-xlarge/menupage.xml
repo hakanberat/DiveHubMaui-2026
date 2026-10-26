@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+          <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="about"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/about" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageButton1"
+            android:layout_below="@+id/imageButton1"
+            android:onClick="divesites"
+            android:src="@drawable/divesites" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageButton2"
+            android:layout_below="@+id/imageButton2"
+            android:onClick="logbook"
+            android:src="@drawable/logbook" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageButton3"
+            android:layout_below="@+id/imageButton3"
+            android:onClick="contact"
+            android:src="@drawable/contact" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageButton5"
+            android:layout_below="@+id/imageButton5"
+            android:onClick="services"
+            android:src="@drawable/services" />
+        
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageButton6"
+            android:layout_below="@+id/imageButton6"
+            android:onClick="gallery"
+            android:src="@drawable/gallery" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageButton7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:onClick="infor"
+            android:src="@android:drawable/ic_menu_info_details" />
+
+        </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

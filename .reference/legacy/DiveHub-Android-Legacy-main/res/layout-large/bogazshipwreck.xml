@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/bogazshipwreck" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="Located on the coast of Bogazi, the dive site is about 4 miles away from Dive Hub Iskele. The wreck is the torpedo boat that sunk during 1974 war in Cyprus. The dive site is located on the north-east of Dive Hub. The wreck is broken into two pieces, one is lying on depth of 3 metres and other part is at 5 metres; the shallow depth makes the wreck possible for even for the novice divers to enjoy." />
+
+        
+        
+    </LinearLayout>
+    
+
+</ScrollView>
+        

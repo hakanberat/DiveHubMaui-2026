@@ -1,0 +1,386 @@
+﻿[
+    {
+        "File":  "pic1.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/pic1.png",
+        "Type":  "Legacy original",
+        "Sha256":  "f2b82bbbf02ffa63ef026938e346f7e0482b8afd97f8ba306bbc2002afbcb844",
+        "Width":  700,
+        "Height":  465
+    },
+    {
+        "File":  "pic2.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/pic2.png",
+        "Type":  "Legacy original",
+        "Sha256":  "7a1e18c5e97923b1d6a838badf35e2e1537422e6cba6dff5cfa32b7075a87b6e",
+        "Width":  700,
+        "Height":  525
+    },
+    {
+        "File":  "pic3.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/pic3.png",
+        "Type":  "Legacy original",
+        "Sha256":  "059cfcdb62a637c18c4394664a27f38f37c11a6ba2a4873ef7fb4f8a617973be",
+        "Width":  720,
+        "Height":  479
+    },
+    {
+        "File":  "pic4.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/pic4.png",
+        "Type":  "Legacy original",
+        "Sha256":  "bb76123af9373813ebaef39ad7e123afcd6ea73332ffd3b4e6e6b1c69b6f822f",
+        "Width":  720,
+        "Height":  479
+    },
+    {
+        "File":  "pic5.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/pic5.png",
+        "Type":  "Legacy original",
+        "Sha256":  "9a8032c924ade0ba4729b4e7c040ad684dbc59cc7a34109581a192fb5ce3b5c1",
+        "Width":  720,
+        "Height":  479
+    },
+    {
+        "File":  "pic7.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/pic7.png",
+        "Type":  "Legacy original",
+        "Sha256":  "47f87db59de1eb79843d04bf69743cd094cbcccf9faa749218caf3453c6bccc8",
+        "Width":  720,
+        "Height":  479
+    },
+    {
+        "File":  "pic8.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/pic8.png",
+        "Type":  "Legacy original",
+        "Sha256":  "0c0cb620c642a8957c05bef1e278e850f388bffa7e16ae9075744aefabedcede",
+        "Width":  720,
+        "Height":  479
+    },
+    {
+        "File":  "pic10.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/pic10.png",
+        "Type":  "Legacy original",
+        "Sha256":  "f803f840fb9fc848070fcad4ae0c61c1a691e4f5bccaf71a7f746c815ae29b09",
+        "Width":  720,
+        "Height":  479
+    },
+    {
+        "File":  "pic11.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/pic11.png",
+        "Type":  "Legacy original",
+        "Sha256":  "5e6d597e011376a6882ac96e5f5779350c0f3eff5fa5962c6d17e56f62ba49e5",
+        "Width":  720,
+        "Height":  479
+    },
+    {
+        "File":  "pic12.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/pic12.png",
+        "Type":  "Legacy original",
+        "Sha256":  "66d6b6d12a33e5994e62b324de40e72eb0e30fdd61ff52bfb7d03a18b699e7ce",
+        "Width":  720,
+        "Height":  479
+    },
+    {
+        "File":  "pic15.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/pic15.png",
+        "Type":  "Legacy original",
+        "Sha256":  "a923c254187aa1c78794ddc21f38ce2a47245155a323885cb693a5cc1bd0670b",
+        "Width":  700,
+        "Height":  525
+    },
+    {
+        "File":  "pic16.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/pic16.png",
+        "Type":  "Legacy original",
+        "Sha256":  "71fe77943cb825d218ba2bad4eefe7865cb673f6583e578e872522a491cbac65",
+        "Width":  585,
+        "Height":  780
+    },
+    {
+        "File":  "am2.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/am2.png",
+        "Type":  "Legacy original",
+        "Sha256":  "3bd3e2725563124cd5e7ec7f5f7434d1b6e380f324565ebcaeb38124d2441b3f",
+        "Width":  720,
+        "Height":  540
+    },
+    {
+        "File":  "d1.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/d1.png",
+        "Type":  "Legacy original",
+        "Sha256":  "53f8df929c44175eb885af8cd5572293b53f00c1fa60abb03fcc32e51dedaf00",
+        "Width":  720,
+        "Height":  540
+    },
+    {
+        "File":  "d3.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/d3.png",
+        "Type":  "Legacy original",
+        "Sha256":  "d895a95ebb578be444e59297bbe532c802be792219e60eb4561824d5e9c7ef28",
+        "Width":  700,
+        "Height":  525
+    },
+    {
+        "File":  "d4.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/d4.png",
+        "Type":  "Legacy original",
+        "Sha256":  "8fbd23a81ddfa7d6105271565c8bd842ff212f9baf691d528e92a7ed32a188cf",
+        "Width":  700,
+        "Height":  700
+    },
+    {
+        "File":  "d7.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/d7.png",
+        "Type":  "Legacy original",
+        "Sha256":  "765a766d2a2747505ccdf2a6abd49b6fb603fb5929fe0585ba953d8e889d2575",
+        "Width":  700,
+        "Height":  523
+    },
+    {
+        "File":  "d9.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/d9.png",
+        "Type":  "Legacy original",
+        "Sha256":  "19e9162736cebf17c37fdab8ecc4f412d249c8277dc885f75c036e34b68c1496",
+        "Width":  700,
+        "Height":  525
+    },
+    {
+        "File":  "wr1.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/wr1.png",
+        "Type":  "Legacy original",
+        "Sha256":  "dd32088a4efbf6e4613d38422e6a9bbdc201606cebdd1af7d0a8b20a14cea1a8",
+        "Width":  540,
+        "Height":  720
+    },
+    {
+        "File":  "wr2.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/wr2.png",
+        "Type":  "Legacy original",
+        "Sha256":  "0d7cf5b6d9dd57641898e5d6ea5c0b943f92391c013e0706a7ae0937ea15b2d5",
+        "Width":  720,
+        "Height":  540
+    },
+    {
+        "File":  "ray2.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/ray2.png",
+        "Type":  "Legacy original",
+        "Sha256":  "b6f6a8ec99cf4fb09b97be706a4a20e15f0d620333b6592420a94c56d127f5a7",
+        "Width":  720,
+        "Height":  540
+    },
+    {
+        "File":  "cr1.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/cr1.png",
+        "Type":  "Legacy original",
+        "Sha256":  "96fef7639388378d401f0d782ee3b36e56ed5a8890a7a7f62ee99236768cba9d",
+        "Width":  720,
+        "Height":  720
+    },
+    {
+        "File":  "ani8.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/ani8.png",
+        "Type":  "Legacy original",
+        "Sha256":  "a46959f942d04098de67b5a50ce04d1a18b6a68a009519523203777c038d254c",
+        "Width":  720,
+        "Height":  720
+    },
+    {
+        "File":  "ani9.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/ani9.png",
+        "Type":  "Legacy original",
+        "Sha256":  "b389244ccdc7f73f9804d103ac1e5e794d93968f43df7c8c96cffc36d7ad4914",
+        "Width":  720,
+        "Height":  540
+    },
+    {
+        "File":  "ani12.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/ani12.png",
+        "Type":  "Legacy original",
+        "Sha256":  "3683413da1ec43ed5e90083470956b840625f00a7cd4fcdb4ba33f3ac9dbc024",
+        "Width":  720,
+        "Height":  540
+    },
+    {
+        "File":  "ani16.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/ani16.png",
+        "Type":  "Legacy original",
+        "Sha256":  "304c051d728c79b235015b5f9a882db54fae6f8109b2cd9ab58f29b8d6882506",
+        "Width":  520,
+        "Height":  780
+    },
+    {
+        "File":  "shore.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/shore.png",
+        "Type":  "Legacy original",
+        "Sha256":  "a3e451df2df093a3ecd6368e98e4d0e7e4b249a70e148e8dc9ad192115c6de27",
+        "Width":  465,
+        "Height":  140
+    },
+    {
+        "File":  "amphorabeach.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/amphorabeach.png",
+        "Type":  "Legacy original",
+        "Sha256":  "3b63f1a4cec3cee65bee537379b3b4d1c2e0ca301ee320f3b15d4ca4aff27467",
+        "Width":  465,
+        "Height":  140
+    },
+    {
+        "File":  "bogazshipwreck.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/bogazshipwreck.png",
+        "Type":  "Legacy original",
+        "Sha256":  "1099c1bfed503dfcb4ec2728e93f316c4889eefb3e82660bfc4d2f2a5179bd18",
+        "Width":  465,
+        "Height":  140
+    },
+    {
+        "File":  "alp.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/alp.png",
+        "Type":  "Legacy original",
+        "Sha256":  "839582af3a59d31ee47fde3dcc7bb33b900141337e40be99a17f5dd81e335ae0",
+        "Width":  460,
+        "Height":  139
+    },
+    {
+        "File":  "bedri.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/bedri.png",
+        "Type":  "Legacy original",
+        "Sha256":  "dd89ff9af066a61ecfa6a9d22f064216ec91173a93326ca48026872d7df20e76",
+        "Width":  465,
+        "Height":  140
+    },
+    {
+        "File":  "pitos.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/pitos.png",
+        "Type":  "Legacy original",
+        "Sha256":  "21094d519475b5abe1b6ddc9afe194a080eb17d8f80d1d7487b512bc3f7accd9",
+        "Width":  465,
+        "Height":  140
+    },
+    {
+        "File":  "noahsark.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/noahsark.png",
+        "Type":  "Legacy original",
+        "Sha256":  "cca6a1df2c0b03ef482aecf4c17faf4828b673602618fff08fdad5f94c2f2df2",
+        "Width":  465,
+        "Height":  140
+    },
+    {
+        "File":  "raycave.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/raycave.png",
+        "Type":  "Legacy original",
+        "Sha256":  "8de6e782b4f00f0029066f580671615b3a5aa1c9a80a5dd55556d388a735734a",
+        "Width":  465,
+        "Height":  140
+    },
+    {
+        "File":  "abdulselam.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/abdulselam.png",
+        "Type":  "Legacy original",
+        "Sha256":  "71de0b4fa6f57309bdcbcdeab88f370ac55d96429ff4f2d48ce16181e483dbc2",
+        "Width":  465,
+        "Height":  140
+    },
+    {
+        "File":  "amphorawall.png",
+        "Source":  "https://github.com/hakanberat/DiveHub-Android-Legacy/blob/main/res/drawable/amphorawall.png",
+        "Type":  "Legacy original",
+        "Sha256":  "4d872d9210b31617e91ff6e1ec7fde52d12b2b5eede573cd95a0bd1ac2954c30",
+        "Width":  465,
+        "Height":  140
+    },
+    {
+        "File":  "team_1.jpg",
+        "Source":  "https://dive-hub.com/wp-content/uploads/2015/07/45066_151234591568729_1849001_n-500x500.jpg",
+        "Type":  "Website team portrait",
+        "Sha256":  "b583155bee4f7572816c07b339915ebc66aa3b172eb14c9c636f27b406c7e299",
+        "Width":  500,
+        "Height":  500
+    },
+    {
+        "File":  "team_2.jpg",
+        "Source":  "https://dive-hub.com/wp-content/uploads/2022/08/untitled-500x500.jpg",
+        "Type":  "Website team portrait",
+        "Sha256":  "4d17f04fea7964ffe03ea807d569595150aee2b5f82194f7f41c6a42475caa89",
+        "Width":  500,
+        "Height":  500
+    },
+    {
+        "File":  "team_3.jpg",
+        "Source":  "https://dive-hub.com/wp-content/uploads/2015/12/11699026_10153161989673791_4250754646540474495_o-500x500.jpg",
+        "Type":  "Website team portrait",
+        "Sha256":  "45128b5799ad5af5b0a896f6d2253b65ae89497f9687f7cc2b83e6656d9070fc",
+        "Width":  500,
+        "Height":  500
+    },
+    {
+        "File":  "team_4.jpg",
+        "Source":  "https://dive-hub.com/wp-content/uploads/2016/03/ChW4Sj2I-500x500.jpg",
+        "Type":  "Website team portrait",
+        "Sha256":  "8edc46696506e4281ccc73121e997eba878eeea70f7896d488e191a08b016342",
+        "Width":  500,
+        "Height":  500
+    },
+    {
+        "File":  "team_5.jpg",
+        "Source":  "https://dive-hub.com/wp-content/uploads/2015/07/IMG_2564-copy1-500x500.jpg",
+        "Type":  "Website team portrait",
+        "Sha256":  "79477b560d07c976214485417b47b441af2dd64228e408f9be0131dec373cbd9",
+        "Width":  500,
+        "Height":  500
+    },
+    {
+        "File":  "divehub_logo.png",
+        "Source":  "https://dive-hub.com/wp-content/uploads/2015/07/logo2-01.png",
+        "Type":  "Official logo",
+        "Sha256":  "60e894e3308078c50cd185192bf78ecf0f82209515b5fc7083a7e94a2a41ce43",
+        "Width":  1000,
+        "Height":  1000
+    },
+    {
+        "File":  "ocean_hero.jpg",
+        "Source":  "https://dive-hub.com/wp-content/uploads/2017/06/dsc_0034-1024x768.jpg",
+        "Type":  "Website photograph",
+        "Sha256":  "f2d0eb49bafce0e858e30975ea3c1cd47c3900f8ddf5527bdb074c5f44b4f0a2",
+        "Width":  1024,
+        "Height":  768
+    },
+    {
+        "File":  "ocean_school.jpg",
+        "Source":  "https://dive-hub.com/wp-content/uploads/2017/06/dsc_0049-1024x768.jpg",
+        "Type":  "Website photograph",
+        "Sha256":  "6ff24296c7cc19eefce79694afbd3a9089b1e2ec209c3996937cc98882b1b2a3",
+        "Width":  1024,
+        "Height":  768
+    },
+    {
+        "File":  "ocean_reef.jpg",
+        "Source":  "https://dive-hub.com/wp-content/uploads/2017/06/dsc_1310-1024x768.jpg",
+        "Type":  "Website photograph",
+        "Sha256":  "00f2fda8e1484f9ce520ca78c6e0d6adbbd4340f13b32848eaae61ad36815178",
+        "Width":  1024,
+        "Height":  768
+    },
+    {
+        "File":  "ocean_diver.jpg",
+        "Source":  "https://dive-hub.com/wp-content/uploads/2015/08/dsc_00w06-1024x768.jpg",
+        "Type":  "Website photograph",
+        "Sha256":  "83b1143b52e6c9c87f823f539e64ff5afc898011d020f360e711aff1ace08783",
+        "Width":  1024,
+        "Height":  768
+    },
+    {
+        "File":  "ocean_water.jpg",
+        "Source":  "https://dive-hub.com/wp-content/uploads/2015/08/dsc_1450-1024x768.jpg",
+        "Type":  "Website photograph",
+        "Sha256":  "3a1a2e47c0c10df43d58e160c670cef57cebd33123d17aa7beed1ca16fceba35",
+        "Width":  1024,
+        "Height":  768
+    },
+    {
+        "File":  "center_panorama.jpg",
+        "Source":  "https://dive-hub.com/wp-content/uploads/2019/05/pano11-3-1024x362.jpg",
+        "Type":  "Website photograph",
+        "Sha256":  "36864ba3e93937b1e46c0595e03f18c7001b8f633691e1232ee60911c5d6686d",
+        "Width":  1024,
+        "Height":  362
+    }
+]

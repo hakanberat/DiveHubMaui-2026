@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:textColor="@color/blue"
+        android:text="Located on the coast of Iskele Bogaz, right next to the sea, with its uncrowded beach and friendly atmosphere, Dive Hub offers you to enjoy the marvellous sea view after a dive, as well as various dive sites." />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:text="Head Office"
+        android:textColor="@color/darkblue"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:textColor="@color/blue"
+        android:text="Kordon Boyu Str. No:A10," />
+    
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/blue"
+        android:paddingTop="15dp"
+        android:text="Bahceler/Iskele Northern Cyprus" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp"
+        android:text="Phone:"
+        android:textColor="@color/darkblue"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp"
+        android:text="Office Tel: + 90 392 371 3838"
+        android:textColor="@color/blue" />
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp"
+        android:text="GSM: + 90 542 860 0119"
+        android:textColor="@color/blue" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp"
+        android:linksClickable="true"
+    android:text="@string/divehub" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView55"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp"
+        android:text="Web Site:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/darkblue" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:onClick="contactform"
+        android:text="Contact Form" />
+
+    
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_toRightOf="@+id/textView5"
+        android:onClick="call"
+        android:src="@android:drawable/stat_sys_phone_call" />
+
+    <ImageButton
+        android:id="@+id/ImageButton01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:layout_alignTop="@+id/textView55"
+        android:onClick="call2"
+        android:src="@android:drawable/stat_sys_phone_call" />
+
+</RelativeLayout>
+</ScrollView>

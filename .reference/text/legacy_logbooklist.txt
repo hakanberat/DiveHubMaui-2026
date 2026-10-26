@@ -1,0 +1,2 @@
+﻿Please enter "Dive No" to delete a dive
+Delete Dive

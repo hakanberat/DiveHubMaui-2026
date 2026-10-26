@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+ <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/raycave" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="Diving in Northern Cyprus offers you unspoilt underwater life and this is the dive site where you can visit the vast amount of species living together in an untouched atmosphere. Ray Cave is known for its habitant sand rays and curious schools of fish which that stop and stare at you rather than swimming away from you. This is a friendly dive site with a maximum depth of 28 meters, eligible for experienced divers with minimum PADI Advanced Open Water, CMAS 2** or equivalent certificate." />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="To reach the dive site, we travel by boat 2 miles east from Dive Hub Iskele, and as we descend we reach the dive site which is a straight path along the 4 meters wall with rocky hills around." />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="The site is a home for sand rays which you can see in the caverns along the wall. And there are schools of black bream that are really curious and will be watching your every move as well as the squirrelfish. The visibility is excellent, 30-40 meters, that enables you to see the trigger fishes that will not come close to you, yet glance curiously. Apart from the different species of fish, you will see colourful corals and sponges along the path." />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="This is a relatively easy dive with no currents, easy to fin and the relaxing atmosphere together with the friendly inhabitants will make you feel refreshed and satisfied. You are welcome to visit and experience the wild and untouched, yet friendly marine life of Eastern Mediterranean in Ray Cave." />
+
+  </LinearLayout>
+    
+
+</ScrollView>

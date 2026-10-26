@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="Are you a photographer who wants to spend time under the water without worrying about the air consumption? Or just wish to have a long and relaxing dive and sample the beauty of the Eastern Mediterranean Sea without worrying about the air consumption. Let our dive guide take you on a guided underwater tour, while you just chill out." />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="We are offering you shore dives depths ranging between 3 and 5 metres, where you can swim with different species of fishes, caretta carettas, see colourful corals growing along the rocks, see moray eels and octopi in their coves, find a sea horse, see the curious squirrelfish and priest fish schools, crabs of different colours running around and colourful parrotfish. You will have a wide range of species to take your time to watch or capture with you camera." />
+
+    </LinearLayout>
+    
+
+</ScrollView>

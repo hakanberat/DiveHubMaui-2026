@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+         <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/alp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="An easy dive site on south of Bogazi, with maximum 13 meters of depth. Easy to fin around and a very good finish of a long diving day as 2nd or 3rd dive site. The dive site is excellent for divers with minimum experience, PADI Open Water, CMAS 1* or equivalent." />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="To reach Alp, we travel approximately 4 miles towards south east by boat from Dive Hub Iskele, and once we reach the dive site we enter the water and descend to 13 metres rocky wall whose top is covered with Neptune grass fields making home for sand rays and groupers. As we swim along the 2,5 metres tall wall, with the sandy bottom, we see different rock formations and can come along a shy caretta caretta. We definitely see a lot of squirrelfish watching us as we swim, curiously. And below the wall, the caverns hide different species of marine habitants for us to find." />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="An easy dive with welcoming atmosphere is awaiting for you, which starts at 13 metres and finishes at 9 metres." />
+     
+    </LinearLayout>
+    
+
+</ScrollView>

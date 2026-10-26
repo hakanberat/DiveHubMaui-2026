@@ -1,0 +1,5 @@
+﻿For scuba divers worldwide, DAN means safety, health and peace of mind. The Divers Alert Network (DAN) is a global network of not-for-profit, member-based, dive safety organizations working to enhance dive safety for all recreational divers.
+DAN was founded in 1980 at Duke University Medical Centre in the United States with a 24-hour Emergency Hotline. This Hotline assisted in the treatment of underwater diving accidents by providing information to injured divers and the medical personnel who cared for them.
+Official website:
+@string/dan
+List of Courses

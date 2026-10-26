@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/pitos" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="Located on the east of Bogazi, Pitos is one of the magnificent and exhilarating dive sites in the coast of Northern Cyprus where you can see a huge range of marine life as well as the archaeological remains." />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="The dive site is eligible for experienced divers with minimum PADI Advanced Open Waetr, CMAS 2** or equivalent certificate as it starts at 22 metres and goes down to 32 metres. Keep in mind, regarding the safety standards we stay at depth of 30 metres maximum." />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="To reach Pitos, we travel approximately 2 miles off shore from Dive Hub Iskele by boat. Arriving to the dive site, we enter the clear blue waters and descend to 22 metres. We start our dive on a rocky plateau and as the dive continues, we swim along the 5-7 metres tall wall, which holds a lot of surprises for us in each dive as there are long ingoing caverns with big groupers hiding in; stay alert as you may see different species as sea bream, and moray eels in the holes along the wall. The bottom of the wall is 32 metres and is home for many common prawns or shrimps. There are usually some groupings of medium sized barracuda, big sized groupers and amber jacks." />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="This is a relatively easy and relaxing dive. There is no current so it is relatively easy to fin around the dive site at your leisure. The visibility is usually excellent – 30 to 40 metres, if the bottom has not kicked up the bottom sand. As Cyprus has been on the active trade route, there are numerous stone anchors and amphora scattered around the coastline that includes Pitos dive site, too. These are potentially thousands of years old and are a further indication of the commercial shipping activity in this part of the Eastern Mediterranean." />
+        
+</LinearLayout>
+</ScrollView>

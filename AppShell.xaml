@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DiveHubMauiApp.AppShell" FlyoutBehavior="Disabled" Title="Dive Hub"
+ Shell.BackgroundColor="{StaticResource Navy}" Shell.ForegroundColor="White" Shell.TitleColor="White"
+ Shell.TabBarBackgroundColor="White" Shell.TabBarForegroundColor="{StaticResource Ocean}" Shell.TabBarTitleColor="{StaticResource Ocean}" Shell.TabBarUnselectedColor="{StaticResource Muted}">
+ <Shell.TitleView><Grid ColumnDefinitions="Auto,*" ColumnSpacing="10" Padding="0,6"><Image Source="brand_mark.png" WidthRequest="28" HeightRequest="28"/><Label Grid.Column="1" Text="DIVE HUB" TextColor="White" FontFamily="OpenSansSemibold" FontSize="17" CharacterSpacing="3" VerticalOptions="Center"/></Grid></Shell.TitleView>
+ <TabBar>
+  <ShellContent x:Name="Home" Route="home" Title="Home" Icon="icon_home.png"/>
+  <ShellContent x:Name="Sites" Route="sites" Title="Dive sites" Icon="icon_sites.png"/>
+  <ShellContent x:Name="Courses" Route="courses" Title="Courses" Icon="icon_courses.png"/>
+  <ShellContent x:Name="Logbook" Route="logbook" Title="Logbook" Icon="icon_logbook.png"/>
+  <ShellContent x:Name="More" Route="more" Title="Discover" Icon="icon_more.png"/>
+ </TabBar>
+</Shell>

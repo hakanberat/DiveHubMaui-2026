@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="teamlist">
+        <item name="ayca">Maria Ayça Ateş</item>
+        <item name="hakan">K. M. Hakan Koçdağ</item>
+        <item name="alp">Bedri Alp Arat</item>
+        <item name="burhan">Hüseyin Burhan Şan</item>
+        <item name="yigit">Yiğit Gurdal</item>
+        
+        
+     </string-array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="divesiteslist">
+        <item name="dive">Dive Hub Shore</item>
+        <item name="amphorabeach">Amphora Beach</item>
+        <item name="bogaz">Bogaz Ship Wreck</item>
+        <item name="alp">Alp</item>
+        <item name="bedri">Bedri</item>
+        <item name="pitos">Pitos</item>
+        <item name="noa">Noahs Ark</item>
+        <item name="ray">Ray Cave</item>
+        <item name="abdul">Abdulselam</item>
+        <item name="amphorawall">Amphora Wall</item>
+        
+        
+        
+     </string-array>
+</resources>

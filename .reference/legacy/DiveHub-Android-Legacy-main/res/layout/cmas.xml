@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+
+	<RelativeLayout
+  				 	 android:layout_width="match_parent"
+   					 android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:layout_centerHorizontal="true" 
+            android:src="@drawable/cmas" />
+
+        
+
+	</RelativeLayout>
+
+<TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="The Confederation Mondiale des Activites Subaquatiques (CMAS) is the World Underwater Federation. It was founded in Brussels on September 28, 1958. As such, it is one of the world’s oldest scuba diving organizations." />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+    android:text="Since CMAS started effectively as a volunteer organization for hobbyists, its courses tend to reflect the full range of European and world diving standards. The difference in the philosophy for diving between CMAS and most other dive education is stil very noticeable. CMAS is entirely about quality education over profit, which accounts for its programs being taught worldwide in more dive schools than dive shops." />
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+    android:text="Official website:" />
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:linksClickable="true"
+    android:text="@string/cmas" />
+
+
+	<RelativeLayout
+  				 	 android:layout_width="match_parent"
+   					 android:layout_height="match_parent">
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:onClick="cmascourses"
+    android:paddingTop="5dp"
+    android:text="List of Courses" />
+
+</RelativeLayout>
+
+    </LinearLayout>
+    
+
+</ScrollView>

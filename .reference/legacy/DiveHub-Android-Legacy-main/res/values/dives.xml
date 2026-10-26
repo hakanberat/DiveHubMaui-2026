@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="divelist">
+        <item name="dives">Dives</item>
+        <item name="trydive">Try Dives</item>
+        <item name="shoredives">Shore Dives</item>
+        <item name="boatdives">Boat Dives</item>
+        <item name="nightdives">Night Dives</item>
+        
+        
+     </string-array>
+</resources>

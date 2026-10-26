@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:DiveHubMauiApp.ViewModels" xmlns:m="clr-namespace:DiveHubMauiApp.Models" x:Class="DiveHubMauiApp.Views.GalleryPage" x:DataType="vm:GalleryViewModel" Title="Photo gallery">
+ <Grid RowDefinitions="Auto,Auto,*" RowSpacing="20" Padding="{OnIdiom Phone=20, Default=36}" MaximumWidthRequest="1200" HorizontalOptions="Fill">
+  <VerticalStackLayout Spacing="8"><Label Text="THE ORIGINAL COLLECTION" Style="{StaticResource Eyebrow}"/><Label Text="Moments in the blue." Style="{StaticResource Title}"/><Label Text="Authentic Dive Hub photography. Tap a moment to look closer." Style="{StaticResource Body}"/></VerticalStackLayout>
+  <Label Grid.Row="1" Text="{Binding Error}" IsVisible="{Binding HasError}" Style="{StaticResource Error}"/>
+  <CollectionView x:Name="Collection" Grid.Row="2" ItemsSource="{Binding Photos}" SelectionMode="None" SizeChanged="CollectionSizeChanged">
+   <CollectionView.ItemsLayout><GridItemsLayout x:Name="ItemsLayout" Orientation="Vertical" Span="2" HorizontalItemSpacing="12" VerticalItemSpacing="12"/></CollectionView.ItemsLayout>
+   <CollectionView.ItemTemplate><DataTemplate x:DataType="m:GalleryPhoto"><Border StrokeThickness="0" StrokeShape="RoundRectangle 16" HeightRequest="180"><ImageButton Source="{Binding Image}" Aspect="AspectFill" BackgroundColor="Transparent" Padding="0" Clicked="PhotoClicked" SemanticProperties.Description="{Binding Caption}"/><Border.GestureRecognizers><TapGestureRecognizer Tapped="PhotoTapped"/></Border.GestureRecognizers></Border></DataTemplate></CollectionView.ItemTemplate>
+  </CollectionView>
+ </Grid>
+</ContentPage>

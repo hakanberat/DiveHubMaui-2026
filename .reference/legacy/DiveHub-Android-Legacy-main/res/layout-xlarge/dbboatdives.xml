@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="Dive Hub Iskele offers you a wide range of dive sites accessible by boat for different experience levels. In summer, boat dives are done during the morning until noon, and from afternoon until sun set as sea gets windy and rough during midday. In spring, fall and winter, sea is calm all day long and boat dives can be arranged regardless of time of the day." />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="We offer up to 3 boat dives during daytime. If there is enough interested, a night dive is also arranged for our divers. You can chose the most eligible dive sites for your diving day together with us according to your experience and expectations." />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:paddingTop="5dp"
+            android:text="We are always discovering new sites which gives you more of a variety of dive sites." />
+
+    </LinearLayout>
+    
+
+</ScrollView>

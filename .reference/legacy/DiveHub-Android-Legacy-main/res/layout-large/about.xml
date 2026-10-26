@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    >
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:gravity="center"
+        android:text="Located on the coast of Iskele Bogaz, right next to the sea, with its uncrowded beach and friendly atmosphere, Dive Hub offers you to enjoy the marvellous sea view after a dive, as well as various dive sites ranging from very shallow for the very beginners, to deep for experienced divers." />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:gravity="center"
+        android:text="SCUBA diving gives you to the joy of exploring a totally different world: the underwater world. The unspoilt waters of Cyprus hide so much, varying from forms of life different from what we are used to seeing on land, to the ancient history lying beneath the waters. As Cyprus Island was on the sea trade route in ancient times, there are so much to see from the old times, under the water. No matter if you are only a beginner or an experienced diver, we are here to take you there to see it all. All you need to do is contact us and get detailed information to decide upon what would suit best for your own enjoyment." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:gravity="center"
+        android:text="Offering various courses, Dive Hub is the right place to advance your SCUBA skills, as well as making a good start to SCUBA diving. The uncrowded atmosphere of our diving centre gives us the chance to carefully assess your improvement and help you advance your SCUBA skills beyond your expectation. We offer you one on one education as well as group education, all according to your wish." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:gravity="center"
+        android:text="Dive Hub is not only a diving centre where you would dive and leave, but rather is the place where you will feel yourself at your own summerhouse relaxing and enjoying your drink after a couple of dives, watching your pictures on computer taken by Dive Hub divers during your dives." />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:onClick="team"
+        android:src="@drawable/team" />
+    
+</RelativeLayout>
+</ScrollView>
