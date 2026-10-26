@@ -1,7 +1,5 @@
 # Dive Hub — .NET MAUI (2026)
 
-![Dive Hub](Resources/Images/ocean_hero.jpg)
-
 **A modern, fully offline scuba diving companion built with .NET MAUI.**
 
 ## Overview
